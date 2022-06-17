@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import { Link } from 'react-router-dom'
 import IconArrow from 'containers/Header/_assets/IconArrow'
 
-const DesktopMenu = ({ data }) => {
+const DesktopMenu = ({ data, isLight }) => {
   const listContent = data.list.map((item, index) => {
     if (item.sublist && item.sublist.length > 0) {
       return (
@@ -43,7 +43,11 @@ const DesktopMenu = ({ data }) => {
 
   return (
     <nav>
-      <ul className={css.list}>
+      <ul
+        className={classnames(css.list, {
+          [css.listLight]: isLight
+        })}
+      >
         { listContent }
       </ul>
     </nav>

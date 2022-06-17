@@ -2,6 +2,15 @@
 
 // font mixins
 
+@mixin bannerText($color) {
+  font-family: "RobotoCondensed", sans-serif;
+  font-size: 14rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  color: $color;
+}
+
 @mixin counter($color) {
   font-family: "Montserrat", sans-serif;
   font-size: 7rem;

@@ -105,4 +105,26 @@
       color: var(--color-highlight-buttons);
     }
   }
+
+  .listLight {
+    .link {
+      color: var(--color-lightest);
+      transition-duration: $transitionDuration;
+      transition-property: color;
+
+      &:hover {
+        color: var(--color-highlight-buttons);
+      }
+    }
+
+    .submenuTrigger {
+      .wrapper {
+        padding-top: 5.2rem;
+      }
+
+      .sublist {
+        background-color: var(--color-lightest);
+      }
+    }
+  }
 }

@@ -2,16 +2,16 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useSelector } from 'react-redux'
 import VideoBannerType1 from 'Pages/HomePage/VideoBanner/VideoBannerType1/VideoBannerType1'
+import VideoBannerType2 from 'Pages/HomePage/VideoBanner/VideoBannerType2/VideoBannerType2'
+import useVideoBanner from 'hooks/useVideoBanner'
 
-const VideoBanner = ({
-  top,
-  bottom,
-}) => {
-  const videoBannerType = useSelector(state => state.videoBanner.videoBannerType)
+const VideoBanner = (props) => {
+  const {type} = useVideoBanner()
 
   return (
     <section>
-      {videoBannerType === 1 && <VideoBannerType1 top={top} bottom={bottom} />}
+      {type === 1 && <VideoBannerType1 {...props} />}
+      {type === 2 && <VideoBannerType2 {...props} />}
     </section>
   )
 }

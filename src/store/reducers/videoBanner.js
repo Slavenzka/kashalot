@@ -1,7 +1,7 @@
 import { SET_VIDEO_BANNER_TYPE } from 'store/actions/actionTypes'
 
 const initialState = {
-  videoBannerType: 1
+  videoBannerType: 2
 }
 
 export default function videoBannerReducer (state = initialState, action) {

@@ -2,13 +2,9 @@ import React from 'react'
 import classnames from 'classnames'
 import css from './Footer.module.scss'
 import Container from 'components/Grid/Container'
-import IconFacebook from 'assets/icons/IconFacebook'
-import IconVK from 'assets/icons/IconVK'
-import IconTwitter from 'assets/icons/IconTwitter'
-import IconInstagram from 'assets/icons/IconInstagram'
 import IconLogoCreator from 'assets/icons/IconLogoCreator'
-// import { YMInitializer } from 'react-yandex-metrika'
 import { Link } from 'react-router-dom'
+import Social from 'components/Social/Social'
 
 const Footer = ({ className }) => {
   const footerData = {
@@ -74,24 +70,6 @@ const Footer = ({ className }) => {
         ]
       }
     ],
-    social: [
-      {
-        type: 'facebook',
-        url: '/'
-      },
-      {
-        type: 'vk',
-        url: '/'
-      },
-      {
-        type: 'twitter',
-        url: '/'
-      },
-      {
-        type: 'instagram',
-        url: '/'
-      },
-    ],
     companyInfo: {
       startYear: '2008',
       schedule: 'с&nbsp;9:00 до&nbsp;18:00, воскресенье&nbsp;&mdash; выходной',
@@ -139,42 +117,7 @@ const Footer = ({ className }) => {
       </li>
     )
   })
-
-  const social = (
-    <ul className={css.socialList}>
-      {footerData.social.map((item, index) => {
-        let icon
-
-        switch (item.type) {
-          case 'facebook':
-            icon = <IconFacebook className={css.iconSocial} />
-            break
-          case 'vk':
-            icon = <IconVK className={css.iconSocial} />
-            break
-          case 'twitter':
-            icon = <IconTwitter className={css.iconSocial} />
-            break
-          case 'instagram':
-            icon = <IconInstagram className={css.iconSocial} />
-            break
-          default:
-            return null
-        }
-
-        return (
-          <li className={css.socialItem} key={index}>
-            <a className={css.socialLink} href={item.url}>
-              { icon }
-              {`Мы в ${item.type}`}
-            </a>
-          </li>
-        )
-      })
-      }
-    </ul>
-  )
-
+  
   const siteInfoLinks = footerData.siteInfo.links.map((item, index) => (
     <li className={css.auxItem} key={index}>
       <Link className={css.auxLink} to={item.url}>
@@ -205,7 +148,7 @@ const Footer = ({ className }) => {
                 />
               </div>
             }
-            { social }
+            <Social className={css.socialList} />
           </div>
         </div>
         <div className={css.bottom}>

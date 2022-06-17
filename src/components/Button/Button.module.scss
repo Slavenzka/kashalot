@@ -27,6 +27,7 @@
     padding: 2rem 1rem;
     border: 0.1rem solid var(--color-highlight-buttons);
     border-bottom-width: 0.5rem;
+    background-color: white;
     overflow: hidden;
     z-index: 0;
 
@@ -149,5 +150,15 @@
 
   path {
     stroke: var(--color-highlight-buttons);
+  }
+}
+
+:global {
+  .color-pattern-2 {
+    :local {
+      .buttonFilledDecorated {
+        border-bottom-color: var(--color-highlight-buttons-dark);
+      }
+    }
   }
 }

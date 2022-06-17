@@ -36,12 +36,34 @@
   }
 
   .iconLogo {
-    width: 14.4rem;
+    width: 10rem;
   }
 
   .btnRegister {
     display: block;
     margin-left: 8.3rem;
     width: 21.7rem;
+  }
+}
+
+.headerAbsolute {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+
+  &::before {
+    display: none;
+  }
+
+  .desktopWrapper {
+    margin-top: 2.6rem;
+    padding: 3rem 5rem;
+    background-color: white;
+  }
+}
+
+.headerTransparent {
+  .desktopWrapper {
+    background-color: transparent;
   }
 }

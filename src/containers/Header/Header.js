@@ -11,32 +11,48 @@ import { openContentModal } from 'store/actions/ui'
 import logo from 'assets/images/logo.png'
 import { headerData } from 'containers/Header/_assets/data'
 import ModalAppointment from 'components/ModalAppointment/ModalAppointment'
+import useVideoBanner from 'hooks/useVideoBanner'
+import classnames from 'classnames'
 
 const Header = () => {
   const dispatch = useDispatch()
+  const {type} = useVideoBanner()
+  
+  const isHeaderAbsolute = type !== 1
 
   return (
-    <header className={css.header}>
-      <Intro className={css.top} data={headerData} />
-      <Container className={css.desktopWrapper}>
-        <Link to={HOME_PAGE} className={css.logo}>
-          <img
-            className={css.iconLogo}
-            src={logo}
-            alt="Stardent24 logo"
-          />
-        </Link>
-        <DesktopMenu
+    <header
+      className={classnames(css.header, {
+        [css.headerAbsolute]: isHeaderAbsolute,
+      })}
+    >
+      {!isHeaderAbsolute && (
+        <Intro
+          className={css.top}
           data={headerData}
         />
-        <div className={css.btnRegister}>
-          <Button
-            label='Записаться'
-            btnStyle='decorated'
-            handleClick={() => {
-              dispatch(openContentModal(<ModalAppointment />))}
-            }
+      )}
+      <Container>
+        <div className={css.desktopWrapper}>
+          <Link to={HOME_PAGE} className={css.logo}>
+            <img
+              className={css.iconLogo}
+              src={logo}
+              alt="Stardent24 logo"
+            />
+          </Link>
+          <DesktopMenu
+            data={headerData}
           />
+          <div className={css.btnRegister}>
+            <Button
+              label='Записаться'
+              btnStyle='filledDecorated'
+              handleClick={() => {
+                dispatch(openContentModal(<ModalAppointment />))}
+              }
+            />
+          </div>
         </div>
       </Container>
     </header>

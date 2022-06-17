@@ -11,7 +11,7 @@ export const HOME_PAGE_DATA = {
     },
     bottom: {
       sloganAdaptive: 'Стоматология для всех',
-      sloganDesktop: 'Заботимся о вас и вашей улыбке',
+      sloganDesktop: 'Современная стоматология для всех',
       backgroundMobile: 'bg__video-banner@mobile.jpg',
       backgroundTablet: 'bg__video-banner@tablet.jpg',
       descriptor: 'Индивидуальный подход к&nbsp;каждому пациенту, ответственность, строжайшее соблюдение всех протоколов лечения',

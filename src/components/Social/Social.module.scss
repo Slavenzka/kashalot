@@ -1,0 +1,45 @@
+@import "styles/mixins";
+
+.list {
+  @include resetList;
+
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  &:not(:first-of-type) {
+    margin-left: 1.2rem;
+  }
+}
+
+.link {
+  font-size: 0;
+
+  &:hover {
+    .icon {
+      fill: var(--color-highlight-buttons);
+      opacity: 1;
+    }
+  }
+}
+
+.icon {
+  width: 3rem;
+  fill: var(--color-highlight-lightest);
+  transition-duration: 0.3s;
+  opacity: 0.8;
+}
+
+.listVideoBanner {
+  .item {
+    &:not(:first-of-type) {
+      margin-left: 1.9rem;
+    }
+  }
+
+  .icon {
+    width: 2.2rem;
+    opacity: 0.4;
+  }
+}

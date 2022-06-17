@@ -15,6 +15,18 @@
     --color-highlight-gradient: linear-gradient(97.35deg, #10C8D2 -4.47%, #66A1FF 96.77%);
   }
 
+  .color-pattern-2 {
+    --color-highlight-buttons: rgb(60, 204, 93);
+    --color-highlight-buttons-dark: rgb(48, 150, 69);
+    --color-highlight-mosaic: rgb(51, 131, 251);
+    --color-font-main: #464b56;
+    --color-highlight-lightest: #f7f8fB;
+    --color-highlight-darker: #ebedf2;
+    --color-highlight-darkest: #dcdfe6;
+    --color-highlight-gradient: linear-gradient(97.35deg, #10C8D2 -4.47%, #66A1FF 96.77%);
+    --color-lightest: rgb(255, 255, 255);
+  }
+
   .color-pattern-special {
     --color-highlight-buttons: black;
     --color-highlight-mosaic: black;

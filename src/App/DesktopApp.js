@@ -7,7 +7,7 @@ import Footer from 'containers/Footer/Footer'
 
 const DesktopApp = () => {
   return (
-    <div className={classnames(css.wrapper, 'color-pattern-1')}>
+    <div className={classnames(css.wrapper, 'color-pattern-2')}>
       <Header />
       <main>
         <Routes />
