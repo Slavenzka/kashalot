@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "507dfec6b8eb07045cee1f730e8f17ad",
+    "revision": "a808b2ce1fd25f3f5358d24a78f7b4b5",
     "url": "/kashalot/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "c505c48fe6c97cc9f1d7",
-    "url": "/kashalot/static/css/main.590188db.chunk.css"
+    "revision": "c0b2ac8d94ec5f778514",
+    "url": "/kashalot/static/css/main.113b73ac.chunk.css"
   },
   {
     "revision": "c73bffca4e85abf96746",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/js/2.83ad4e7b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c505c48fe6c97cc9f1d7",
-    "url": "/kashalot/static/js/main.853e45af.chunk.js"
+    "revision": "c0b2ac8d94ec5f778514",
+    "url": "/kashalot/static/js/main.3b6d5ea9.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -754,5 +754,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f76a2e37441ac5922ae4527f2a2a38d8",
     "url": "/kashalot/static/media/video-banner__video.f76a2e37.mp4"
+  },
+  {
+    "revision": "384b5859674ba1b5540ff672d0afdd71",
+    "url": "/kashalot/static/media/video__preview.384b5859.jpg"
   }
 ]);

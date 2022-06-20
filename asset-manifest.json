@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kashalot/static/css/main.590188db.chunk.css",
-    "main.js": "/kashalot/static/js/main.853e45af.chunk.js",
-    "main.js.map": "/kashalot/static/js/main.853e45af.chunk.js.map",
+    "main.css": "/kashalot/static/css/main.113b73ac.chunk.css",
+    "main.js": "/kashalot/static/js/main.3b6d5ea9.chunk.js",
+    "main.js.map": "/kashalot/static/js/main.3b6d5ea9.chunk.js.map",
     "runtime-main.js": "/kashalot/static/js/runtime-main.3fe563ee.js",
     "runtime-main.js.map": "/kashalot/static/js/runtime-main.3fe563ee.js.map",
     "static/css/2.0016a719.chunk.css": "/kashalot/static/css/2.0016a719.chunk.css",
     "static/js/2.83ad4e7b.chunk.js": "/kashalot/static/js/2.83ad4e7b.chunk.js",
     "static/js/2.83ad4e7b.chunk.js.map": "/kashalot/static/js/2.83ad4e7b.chunk.js.map",
     "index.html": "/kashalot/index.html",
-    "precache-manifest.e62a581c91831659853d2f32e471d462.js": "/kashalot/precache-manifest.e62a581c91831659853d2f32e471d462.js",
+    "precache-manifest.16f1746edbad97ef64c9a2867d542bec.js": "/kashalot/precache-manifest.16f1746edbad97ef64c9a2867d542bec.js",
     "service-worker.js": "/kashalot/service-worker.js",
     "static/css/2.0016a719.chunk.css.map": "/kashalot/static/css/2.0016a719.chunk.css.map",
-    "static/css/main.590188db.chunk.css.map": "/kashalot/static/css/main.590188db.chunk.css.map",
+    "static/css/main.113b73ac.chunk.css.map": "/kashalot/static/css/main.113b73ac.chunk.css.map",
     "static/js/2.83ad4e7b.chunk.js.LICENSE.txt": "/kashalot/static/js/2.83ad4e7b.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/kashalot/static/media/1.9989aa50.jpg",
     "static/media/10.jpg": "/kashalot/static/media/10.621d8b09.jpg",
@@ -167,13 +167,14 @@
     "static/media/video-banner__preview--adaptive.jpg": "/kashalot/static/media/video-banner__preview--adaptive.3ce9068a.jpg",
     "static/media/video-banner__preview.jpg": "/kashalot/static/media/video-banner__preview.3ce9068a.jpg",
     "static/media/video-banner__video--modal.mp4": "/kashalot/static/media/video-banner__video--modal.9f29a417.mp4",
-    "static/media/video-banner__video.mp4": "/kashalot/static/media/video-banner__video.f76a2e37.mp4"
+    "static/media/video-banner__video.mp4": "/kashalot/static/media/video-banner__video.f76a2e37.mp4",
+    "static/media/video__preview.jpg": "/kashalot/static/media/video__preview.384b5859.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3fe563ee.js",
     "static/css/2.0016a719.chunk.css",
     "static/js/2.83ad4e7b.chunk.js",
-    "static/css/main.590188db.chunk.css",
-    "static/js/main.853e45af.chunk.js"
+    "static/css/main.113b73ac.chunk.css",
+    "static/js/main.3b6d5ea9.chunk.js"
   ]
 }
