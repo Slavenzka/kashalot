@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kashalot/static/css/main.b379a7a5.chunk.css",
+    "main.css": "/kashalot/static/css/main.590188db.chunk.css",
     "main.js": "/kashalot/static/js/main.853e45af.chunk.js",
     "main.js.map": "/kashalot/static/js/main.853e45af.chunk.js.map",
     "runtime-main.js": "/kashalot/static/js/runtime-main.3fe563ee.js",
@@ -9,10 +9,10 @@
     "static/js/2.83ad4e7b.chunk.js": "/kashalot/static/js/2.83ad4e7b.chunk.js",
     "static/js/2.83ad4e7b.chunk.js.map": "/kashalot/static/js/2.83ad4e7b.chunk.js.map",
     "index.html": "/kashalot/index.html",
-    "precache-manifest.c6590dd7c1c5a68febb6eb75e84f46d6.js": "/kashalot/precache-manifest.c6590dd7c1c5a68febb6eb75e84f46d6.js",
+    "precache-manifest.e62a581c91831659853d2f32e471d462.js": "/kashalot/precache-manifest.e62a581c91831659853d2f32e471d462.js",
     "service-worker.js": "/kashalot/service-worker.js",
     "static/css/2.0016a719.chunk.css.map": "/kashalot/static/css/2.0016a719.chunk.css.map",
-    "static/css/main.b379a7a5.chunk.css.map": "/kashalot/static/css/main.b379a7a5.chunk.css.map",
+    "static/css/main.590188db.chunk.css.map": "/kashalot/static/css/main.590188db.chunk.css.map",
     "static/js/2.83ad4e7b.chunk.js.LICENSE.txt": "/kashalot/static/js/2.83ad4e7b.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/kashalot/static/media/1.9989aa50.jpg",
     "static/media/10.jpg": "/kashalot/static/media/10.621d8b09.jpg",
@@ -173,7 +173,7 @@
     "static/js/runtime-main.3fe563ee.js",
     "static/css/2.0016a719.chunk.css",
     "static/js/2.83ad4e7b.chunk.js",
-    "static/css/main.b379a7a5.chunk.css",
+    "static/css/main.590188db.chunk.css",
     "static/js/main.853e45af.chunk.js"
   ]
 }
