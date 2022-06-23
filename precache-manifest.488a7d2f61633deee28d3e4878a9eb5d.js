@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9f99b06444b2aa5bbbeec00cdc7ee45",
+    "revision": "9464d139cfcdf59ec684e0ffe6dbc460",
     "url": "/kashalot/index.html"
   },
   {
-    "revision": "c73bffca4e85abf96746",
+    "revision": "c1fde69a126c23402afe",
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "ab062f46bbd0faf52ce2",
-    "url": "/kashalot/static/css/main.ccfd6fa8.chunk.css"
+    "revision": "df98093f57be174116c9",
+    "url": "/kashalot/static/css/main.9156760c.chunk.css"
   },
   {
-    "revision": "c73bffca4e85abf96746",
-    "url": "/kashalot/static/js/2.83ad4e7b.chunk.js"
+    "revision": "c1fde69a126c23402afe",
+    "url": "/kashalot/static/js/2.05df35c4.chunk.js"
   },
   {
     "revision": "bfd0f9ef773c39bd68987561c36447e9",
-    "url": "/kashalot/static/js/2.83ad4e7b.chunk.js.LICENSE.txt"
+    "url": "/kashalot/static/js/2.05df35c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab062f46bbd0faf52ce2",
-    "url": "/kashalot/static/js/main.3b6d5ea9.chunk.js"
+    "revision": "df98093f57be174116c9",
+    "url": "/kashalot/static/js/main.50084b12.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
