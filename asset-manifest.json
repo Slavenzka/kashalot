@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/kashalot/static/css/main.9156760c.chunk.css",
-    "main.js": "/kashalot/static/js/main.50084b12.chunk.js",
-    "main.js.map": "/kashalot/static/js/main.50084b12.chunk.js.map",
+    "main.css": "/kashalot/static/css/main.b651469c.chunk.css",
+    "main.js": "/kashalot/static/js/main.05612988.chunk.js",
+    "main.js.map": "/kashalot/static/js/main.05612988.chunk.js.map",
     "runtime-main.js": "/kashalot/static/js/runtime-main.3fe563ee.js",
     "runtime-main.js.map": "/kashalot/static/js/runtime-main.3fe563ee.js.map",
     "static/css/2.0016a719.chunk.css": "/kashalot/static/css/2.0016a719.chunk.css",
-    "static/js/2.05df35c4.chunk.js": "/kashalot/static/js/2.05df35c4.chunk.js",
-    "static/js/2.05df35c4.chunk.js.map": "/kashalot/static/js/2.05df35c4.chunk.js.map",
+    "static/js/2.62d33a6d.chunk.js": "/kashalot/static/js/2.62d33a6d.chunk.js",
+    "static/js/2.62d33a6d.chunk.js.map": "/kashalot/static/js/2.62d33a6d.chunk.js.map",
     "index.html": "/kashalot/index.html",
-    "precache-manifest.488a7d2f61633deee28d3e4878a9eb5d.js": "/kashalot/precache-manifest.488a7d2f61633deee28d3e4878a9eb5d.js",
+    "precache-manifest.04bcf1770fc0aff39f99ce47016ec7cf.js": "/kashalot/precache-manifest.04bcf1770fc0aff39f99ce47016ec7cf.js",
     "service-worker.js": "/kashalot/service-worker.js",
     "static/css/2.0016a719.chunk.css.map": "/kashalot/static/css/2.0016a719.chunk.css.map",
-    "static/css/main.9156760c.chunk.css.map": "/kashalot/static/css/main.9156760c.chunk.css.map",
-    "static/js/2.05df35c4.chunk.js.LICENSE.txt": "/kashalot/static/js/2.05df35c4.chunk.js.LICENSE.txt",
+    "static/css/main.b651469c.chunk.css.map": "/kashalot/static/css/main.b651469c.chunk.css.map",
+    "static/js/2.62d33a6d.chunk.js.LICENSE.txt": "/kashalot/static/js/2.62d33a6d.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/kashalot/static/media/1.9989aa50.jpg",
     "static/media/10.jpg": "/kashalot/static/media/10.621d8b09.jpg",
     "static/media/11.jpg": "/kashalot/static/media/11.7a6a47a0.jpg",
@@ -130,6 +130,7 @@
     "static/media/review-banner__img--mobile.jpg": "/kashalot/static/media/review-banner__img--mobile.b4a24822.jpg",
     "static/media/review-banner__img.jpg": "/kashalot/static/media/review-banner__img.b4a24822.jpg",
     "static/media/review-slider__preview.jpg": "/kashalot/static/media/review-slider__preview.fa587f2e.jpg",
+    "static/media/review-Яна.webp": "/kashalot/static/media/review-Яна.c00d0afe.webp",
     "static/media/review__banner--bottom.svg": "/kashalot/static/media/review__banner--bottom.7b5d9198.svg",
     "static/media/review__banner--top.svg": "/kashalot/static/media/review__banner--top.7a3fe92c.svg",
     "static/media/review__video--1.mp4": "/kashalot/static/media/review__video--1.8e4f7d88.mp4",
@@ -162,6 +163,7 @@
     "static/media/stardent24__location.jpg": "/kashalot/static/media/stardent24__location.f1866182.jpg",
     "static/media/stardent24__specials-banner.jpg": "/kashalot/static/media/stardent24__specials-banner.823386a4.jpg",
     "static/media/test-banner__img.png": "/kashalot/static/media/test-banner__img.5364c03e.png",
+    "static/media/therapy.png": "/kashalot/static/media/therapy.e36d58c8.png",
     "static/media/tinified.zip": "/kashalot/static/media/tinified.b4fba40e.zip",
     "static/media/vacancies__banner@desktop.jpg": "/kashalot/static/media/vacancies__banner@desktop.6e1da3ba.jpg",
     "static/media/video-banner__preview--adaptive.jpg": "/kashalot/static/media/video-banner__preview--adaptive.3ce9068a.jpg",
@@ -173,8 +175,8 @@
   "entrypoints": [
     "static/js/runtime-main.3fe563ee.js",
     "static/css/2.0016a719.chunk.css",
-    "static/js/2.05df35c4.chunk.js",
-    "static/css/main.9156760c.chunk.css",
-    "static/js/main.50084b12.chunk.js"
+    "static/js/2.62d33a6d.chunk.js",
+    "static/css/main.b651469c.chunk.css",
+    "static/js/main.05612988.chunk.js"
   ]
 }

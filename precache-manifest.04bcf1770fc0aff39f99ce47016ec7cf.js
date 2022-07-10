@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9464d139cfcdf59ec684e0ffe6dbc460",
+    "revision": "465c084404dd8edcd1eba34631b1993f",
     "url": "/kashalot/index.html"
   },
   {
-    "revision": "c1fde69a126c23402afe",
+    "revision": "d2627221ad90e3caa2df",
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "df98093f57be174116c9",
-    "url": "/kashalot/static/css/main.9156760c.chunk.css"
+    "revision": "4dc33b013824feb533c0",
+    "url": "/kashalot/static/css/main.b651469c.chunk.css"
   },
   {
-    "revision": "c1fde69a126c23402afe",
-    "url": "/kashalot/static/js/2.05df35c4.chunk.js"
+    "revision": "d2627221ad90e3caa2df",
+    "url": "/kashalot/static/js/2.62d33a6d.chunk.js"
   },
   {
     "revision": "bfd0f9ef773c39bd68987561c36447e9",
-    "url": "/kashalot/static/js/2.05df35c4.chunk.js.LICENSE.txt"
+    "url": "/kashalot/static/js/2.62d33a6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df98093f57be174116c9",
-    "url": "/kashalot/static/js/main.50084b12.chunk.js"
+    "revision": "4dc33b013824feb533c0",
+    "url": "/kashalot/static/js/main.05612988.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -604,6 +604,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/review-slider__preview.fa587f2e.jpg"
   },
   {
+    "revision": "c00d0afea793fa71eb7f0185d52aed53",
+    "url": "/kashalot/static/media/review-Яна.c00d0afe.webp"
+  },
+  {
     "revision": "7b5d91985cc4e53d43e24d5667fd97dc",
     "url": "/kashalot/static/media/review__banner--bottom.7b5d9198.svg"
   },
@@ -730,6 +734,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5364c03e0c323a1aff906821fa12dce5",
     "url": "/kashalot/static/media/test-banner__img.5364c03e.png"
+  },
+  {
+    "revision": "e36d58c853a79185bba43feed5b6fe3e",
+    "url": "/kashalot/static/media/therapy.e36d58c8.png"
   },
   {
     "revision": "b4fba40e1584622ae5dc738b5084cb26",
