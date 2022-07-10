@@ -21,7 +21,10 @@ const ReviewBannerMobile = ({ bgImages, quote, author }) => {
 
   return (
     <section className={css.section}>
-      <div className={css.bg} style={{ backgroundImage: backgroundImage }} />
+      <div
+        className={css.bg}
+        style={{ backgroundImage: backgroundImage }}
+      />
       <ContainerMobile className={css.container}>
         <IconQuotes className={css.icon} />
         <blockquote className={css.quote} dangerouslySetInnerHTML={{ __html: quote }} />

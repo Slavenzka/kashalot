@@ -51,6 +51,20 @@
       z-index: 1;
     }
   }
+
+  &.linkTherapy {
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 1rem;
+      right: 2.3rem;
+      width: 17rem;
+      height: 17rem;
+      background-image: url("../../assets/images/therapy.png");
+      background-size: cover;
+      z-index: 1;
+    }
+  }
 }
 
 .duration {
@@ -67,6 +81,7 @@
   margin: 5.4rem 0 0 0;
   padding-right: 20%;
   width: 100%;
+  letter-spacing: -1px;
 
 }
 

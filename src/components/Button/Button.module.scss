@@ -21,11 +21,11 @@
   }
 
   &.buttonDecorated {
-    @include capitals-bold(var(--color-highlight-buttons));
+    @include capitals-bold(var(--color-highlight-buttons-dark));
 
     position: relative;
     padding: 2rem 1rem;
-    border: 0.1rem solid var(--color-highlight-buttons);
+    border: 0.1rem solid var(--color-highlight-buttons-dark);
     border-bottom-width: 0.5rem;
     background-color: white;
     overflow: hidden;
@@ -38,7 +38,7 @@
       left: 0;
       width: 100%;
       height: calc(100% + 0.4rem);
-      background-color: var(--color-highlight-buttons);
+      background-color: var(--color-highlight-buttons-dark);
       transition-duration: 0.3s;
       transform: translateX(-100%);
       z-index: -1;
@@ -60,15 +60,17 @@
     .icon {
       margin-left: 1rem;
       width: 1.6rem;
-      stroke: var(--color-highlight-buttons);
+      stroke: var(--color-highlight-buttons-dark);
       transition-duration: 0.3s;
       transform: translateX(0);
     }
   }
 
   &.buttonFilledDecorated {
-    color: $colorMainBg;
-    background-color: var(--color-highlight-buttons);
+    color: var(--color-highlight-buttons-dark);
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5rem solid var(--color-highlight-buttons-dark);
     transition-duration: $transitionDuration;
 
     &::before {
@@ -80,7 +82,7 @@
     }
 
     .icon {
-      stroke: $colorMainBg;
+      stroke: var(--color-highlight-buttons-dark);
     }
   }
 

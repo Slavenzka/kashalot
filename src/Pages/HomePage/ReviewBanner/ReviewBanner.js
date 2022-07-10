@@ -16,7 +16,12 @@ const ReviewBanner = ({
       <Container className={css.container}>
         <IconQuotes className={css.icon} />
         <blockquote className={css.quote} dangerouslySetInnerHTML={{ __html: quote }} />
-        <cite className={css.author} dangerouslySetInnerHTML={{ __html: author }} />
+        {author && (
+          <cite
+            className={css.author}
+            dangerouslySetInnerHTML={{__html: author}}
+          />
+        )}
       </Container>
     </section>
   )

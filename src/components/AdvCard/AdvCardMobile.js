@@ -12,31 +12,45 @@ const AdvCardMobile = ({
   duration,
   title,
   price,
+  styles,
   isCompact
-}) => (
-  <Link
-    className={classnames(css.link, {
-      [css.linkTeeth]: type === 'teeth',
-      [css.linkImplant]: type === 'implant-single',
-      [css.linkJaw]: type === 'implants-jaw',
-      [css.compact]: isCompact,
-    })}
-    to={url}
-    style={{ backgroundColor: color }}
-  >
-    <span className={css.duration}>
-      { duration }
-    </span>
-    <p className={css.title} dangerouslySetInnerHTML={{ __html: title }} />
-    <span className={css.price} dangerouslySetInnerHTML={{ __html: price }} />
-    {!isCompact &&
-      <span className={css.label}>
-        Подробнее
-        <IconArrowRight className={css.icon} />
-      </span>
+}) => {
+  const WrapperTag = url
+    ? Link
+    : `div`
+  
+  const extraProps = url
+    ? {
+      to: url
     }
-    <IconDotsBg className={css.bg} />
-  </Link>
-)
+    : {}
+  
+  return (
+    <WrapperTag
+      className={classnames(css.link, {
+        [css.thin]: styles === 'thin',
+        [css.linkTeeth]: type === 'teeth',
+        [css.linkImplant]: type === 'implant-single',
+        [css.linkJaw]: type === 'implants-jaw',
+        [css.compact]: isCompact
+      })}
+      style={{backgroundColor: color}}
+      {...extraProps}
+    >
+    <span className={css.duration}>
+      {duration}
+    </span>
+      <p className={css.title} dangerouslySetInnerHTML={{__html: title}}/>
+      <span className={css.price} dangerouslySetInnerHTML={{__html: price}}/>
+      <IconDotsBg className={css.bg}/>
+      {!isCompact && url &&
+        <span className={css.label}>
+          Подробнее
+          <IconArrowRight className={css.icon}/>
+        </span>
+      }
+    </WrapperTag>
+  )
+}
 
 export default React.memo(AdvCardMobile)

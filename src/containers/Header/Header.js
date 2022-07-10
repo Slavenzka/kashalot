@@ -51,6 +51,7 @@ const Header = () => {
               handleClick={() => {
                 dispatch(openContentModal(<ModalAppointment />))}
               }
+              className={css.button}
             />
           </div>
         </div>

@@ -4,7 +4,7 @@
 .header {
   position: relative;
   background-color: $colorMainBg;
-  z-index: 2;
+  z-index: 3;
 
   &::before {
     content: "";
@@ -43,6 +43,20 @@
     display: block;
     margin-left: 8.3rem;
     width: 21.7rem;
+
+
+    .button {
+      color: var(--color-highlight-mosaic);
+      border-color: var(--color-highlight-mosaic);
+
+      &:hover {
+        background-color: var(--color-highlight-mosaic);
+      }
+
+      svg {
+        stroke: var(--color-highlight-mosaic);
+      }
+    }
   }
 }
 

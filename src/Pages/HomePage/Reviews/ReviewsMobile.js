@@ -80,14 +80,16 @@ const ReviewsMobile = ({ title, list }) => {
       return (
         <div className={classnames(css.slide, { [css.slideModal]: modal })} key={index}>
           <div className={css.contentText}>
-            <div className={css.author}>
-              <p className={css.name}>
-                {slide.name + ','}
-              </p>
-              <span className={css.date}>
-                {slide.date}
-              </span>
-            </div>
+            {slide?.name && (
+              <div className={css.author}>
+                <p className={css.name}>
+                  {slide.name + ','}
+                </p>
+                <span className={css.date}>
+                  {slide.date}
+                </span>
+              </div>
+            )}
             <p className={css.text} dangerouslySetInnerHTML={{__html: modal ? slide.text : pureText}} ref={reviewTextRef} />
             {isButtonRequired &&
               <button
@@ -103,9 +105,11 @@ const ReviewsMobile = ({ title, list }) => {
             })}>
               {`Специалист: ${slide.specialist}`}
             </span>
-            <span className={css.specialist}>
-              {`Услуги: ${slide.services}`}
-            </span>
+            {slide?.services && (
+              <span className={css.specialist}>
+                {`Услуги: ${slide.services}`}
+              </span>
+            )}
           </div>
          {slide.video && !modal &&
           <ButtonPlayMobile

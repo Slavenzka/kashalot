@@ -18,11 +18,11 @@
     .icon {
       :global {
         .circle__outer {
-          stroke: var(--color-highlight-buttons)
+          stroke: var(--color-highlight-mosaic)
         }
 
         .circle__inner {
-          fill: var(--color-highlight-buttons);
+          fill: var(--color-highlight-mosaic);
         }
 
         .icon__play {
@@ -47,7 +47,7 @@
       }
 
       .icon__play {
-        fill: var(--color-highlight-buttons);
+        fill: var(--color-highlight-mosaic);
         transition-duration: 0.3s;
       }
     }
@@ -87,7 +87,7 @@
 
   &:hover {
     &::before {
-      background-color: var(--color-highlight-buttons);
+      background-color: var(--color-highlight-mosaic);
     }
   }
 }
@@ -104,7 +104,7 @@
       }
 
       .circle__inner {
-        stroke: var(--color-highlight-buttons);
+        stroke: var(--color-highlight-mosaic);
         transition-duration: 0.3s;
       }
     }

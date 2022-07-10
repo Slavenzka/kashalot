@@ -1,18 +1,15 @@
 import React, { useRef, useState } from 'react'
 import css from 'Pages/HomePage/VideoBanner/VideoBannerType2/VideoBannerType2.module.scss'
 import Container from 'components/Grid/Container'
-import { videos } from 'index'
-import { useDispatch } from 'react-redux'
+import { images, videos } from 'index'
 import Heading from 'components/Heading/Heading'
 import Social, { SocialVariants } from 'components/Social/Social'
-import IconPlay from 'assets/icons/IconPlay'
 import Modal from 'components/Modal/Modal'
 
 const VideoBannerType2 = ({top, bottom}) => {
   const videoRef = useRef(null)
   const videoBgRef = useRef(null)
   const [isModalVisible, setModalVisibilityStatus] = useState(false)
-  const dispatch = useDispatch()
   
   const handleOpenModal = () => {
     setModalVisibilityStatus(true)
@@ -25,7 +22,14 @@ const VideoBannerType2 = ({top, bottom}) => {
   return (
     <>
       <div className={css.wrapper}>
-        <div className={css.videoWrapper}>
+        <div
+          className={css.videoWrapper}
+          style={{
+            backgroundImage: bottom?.backgroundDesktop
+              ? images(`./` + bottom.backgroundDesktop)
+              : `none`
+          }}
+        >
           <video
             className={css.videoBg}
             muted

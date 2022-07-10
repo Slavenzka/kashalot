@@ -59,11 +59,12 @@
 
 @media (min-width: $widthDesktopMin) {
   .bg {
-    height: 65rem;
+    height: 70rem;
+    background-position: center 30%;
   }
 
   .container {
-    margin: -17.7rem auto 0 auto;
+    margin: -5rem auto 0 auto;
     padding: 5.2rem 10rem 6rem 8rem;
     width: 137rem;
     border-radius: 0;

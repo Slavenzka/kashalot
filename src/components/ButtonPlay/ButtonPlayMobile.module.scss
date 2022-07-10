@@ -29,7 +29,7 @@
       }
 
       .icon__play {
-        fill: var(--color-highlight-buttons);
+        fill: var(--color-highlight-mosaic);
         transition-duration: 0.3s;
       }
     }
@@ -52,7 +52,7 @@
       }
 
       .circle__inner {
-        stroke: var(--color-highlight-buttons);
+        stroke: var(--color-highlight-mosaic);
         transition-duration: 0.3s;
       }
     }
