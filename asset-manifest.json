@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/kashalot/static/css/main.32e2fcb3.chunk.css",
-    "main.js": "/kashalot/static/js/main.7563bb66.chunk.js",
-    "main.js.map": "/kashalot/static/js/main.7563bb66.chunk.js.map",
+    "main.js": "/kashalot/static/js/main.668fa079.chunk.js",
+    "main.js.map": "/kashalot/static/js/main.668fa079.chunk.js.map",
     "runtime-main.js": "/kashalot/static/js/runtime-main.3fe563ee.js",
     "runtime-main.js.map": "/kashalot/static/js/runtime-main.3fe563ee.js.map",
     "static/css/2.0016a719.chunk.css": "/kashalot/static/css/2.0016a719.chunk.css",
-    "static/js/2.263bc0ea.chunk.js": "/kashalot/static/js/2.263bc0ea.chunk.js",
-    "static/js/2.263bc0ea.chunk.js.map": "/kashalot/static/js/2.263bc0ea.chunk.js.map",
+    "static/js/2.b25fab21.chunk.js": "/kashalot/static/js/2.b25fab21.chunk.js",
+    "static/js/2.b25fab21.chunk.js.map": "/kashalot/static/js/2.b25fab21.chunk.js.map",
     "index.html": "/kashalot/index.html",
-    "precache-manifest.dc3788ceee65219e6dd171211eecb182.js": "/kashalot/precache-manifest.dc3788ceee65219e6dd171211eecb182.js",
+    "precache-manifest.a84cbe57f8f01d48e5844d704459caeb.js": "/kashalot/precache-manifest.a84cbe57f8f01d48e5844d704459caeb.js",
     "service-worker.js": "/kashalot/service-worker.js",
     "static/css/2.0016a719.chunk.css.map": "/kashalot/static/css/2.0016a719.chunk.css.map",
     "static/css/main.32e2fcb3.chunk.css.map": "/kashalot/static/css/main.32e2fcb3.chunk.css.map",
-    "static/js/2.263bc0ea.chunk.js.LICENSE.txt": "/kashalot/static/js/2.263bc0ea.chunk.js.LICENSE.txt",
+    "static/js/2.b25fab21.chunk.js.LICENSE.txt": "/kashalot/static/js/2.b25fab21.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/kashalot/static/media/1.9989aa50.jpg",
     "static/media/10.jpg": "/kashalot/static/media/10.621d8b09.jpg",
     "static/media/11.jpg": "/kashalot/static/media/11.7a6a47a0.jpg",
@@ -64,9 +64,10 @@
     "static/media/certificate-8.jpg": "/kashalot/static/media/certificate-8.fcc9ee85.jpg",
     "static/media/certificate-9.jpg": "/kashalot/static/media/certificate-9.b1255495.jpg",
     "static/media/certificates__banner@desktop.jpg": "/kashalot/static/media/certificates__banner@desktop.dbd16624.jpg",
-    "static/media/contacts__banner@desktop.jpg": "/kashalot/static/media/contacts__banner@desktop.6de3691f.jpg",
+    "static/media/contacts__banner@desktop.jpg": "/kashalot/static/media/contacts__banner@desktop.bdec10c5.jpg",
     "static/media/contacts__banner@mobile.jpg": "/kashalot/static/media/contacts__banner@mobile.6e8fffa6.jpg",
     "static/media/contacts__banner@tablet.jpg": "/kashalot/static/media/contacts__banner@tablet.cc1d04c7.jpg",
+    "static/media/contacts__location.jpg": "/kashalot/static/media/contacts__location.025420ce.jpg",
     "static/media/demo_video_1920.mp4": "/kashalot/static/media/demo_video_1920.51a9314d.mp4",
     "static/media/demo_video_1920_2.mp4": "/kashalot/static/media/demo_video_1920_2.0b24130c.mp4",
     "static/media/doctor__about-advice1@desktop.png": "/kashalot/static/media/doctor__about-advice1@desktop.190b51f9.png",
@@ -178,8 +179,8 @@
   "entrypoints": [
     "static/js/runtime-main.3fe563ee.js",
     "static/css/2.0016a719.chunk.css",
-    "static/js/2.263bc0ea.chunk.js",
+    "static/js/2.b25fab21.chunk.js",
     "static/css/main.32e2fcb3.chunk.css",
-    "static/js/main.7563bb66.chunk.js"
+    "static/js/main.668fa079.chunk.js"
   ]
 }
