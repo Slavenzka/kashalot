@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kashalot/static/css/main.0ca25062.chunk.css",
-    "main.js": "/kashalot/static/js/main.d1578e81.chunk.js",
-    "main.js.map": "/kashalot/static/js/main.d1578e81.chunk.js.map",
+    "main.css": "/kashalot/static/css/main.edeb8921.chunk.css",
+    "main.js": "/kashalot/static/js/main.377fecab.chunk.js",
+    "main.js.map": "/kashalot/static/js/main.377fecab.chunk.js.map",
     "runtime-main.js": "/kashalot/static/js/runtime-main.3fe563ee.js",
     "runtime-main.js.map": "/kashalot/static/js/runtime-main.3fe563ee.js.map",
     "static/css/2.0016a719.chunk.css": "/kashalot/static/css/2.0016a719.chunk.css",
     "static/js/2.f0c4b13c.chunk.js": "/kashalot/static/js/2.f0c4b13c.chunk.js",
     "static/js/2.f0c4b13c.chunk.js.map": "/kashalot/static/js/2.f0c4b13c.chunk.js.map",
     "index.html": "/kashalot/index.html",
-    "precache-manifest.acc45be8a78b3672e01e0b515889460d.js": "/kashalot/precache-manifest.acc45be8a78b3672e01e0b515889460d.js",
+    "precache-manifest.5a40c09452bdb076816c3c0db86d08fd.js": "/kashalot/precache-manifest.5a40c09452bdb076816c3c0db86d08fd.js",
     "service-worker.js": "/kashalot/service-worker.js",
     "static/css/2.0016a719.chunk.css.map": "/kashalot/static/css/2.0016a719.chunk.css.map",
-    "static/css/main.0ca25062.chunk.css.map": "/kashalot/static/css/main.0ca25062.chunk.css.map",
+    "static/css/main.edeb8921.chunk.css.map": "/kashalot/static/css/main.edeb8921.chunk.css.map",
     "static/js/2.f0c4b13c.chunk.js.LICENSE.txt": "/kashalot/static/js/2.f0c4b13c.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/kashalot/static/media/1.9989aa50.jpg",
     "static/media/10.jpg": "/kashalot/static/media/10.621d8b09.jpg",
@@ -100,7 +100,7 @@
     "static/media/doctors__photo--moskalev.png": "/kashalot/static/media/doctors__photo--moskalev.999403d6.png",
     "static/media/doctors__photo--moskaleva.png": "/kashalot/static/media/doctors__photo--moskaleva.96400573.png",
     "static/media/doctors__photo--panova.png": "/kashalot/static/media/doctors__photo--panova.0e7510b0.png",
-    "static/media/documents__banner@desktop.jpg": "/kashalot/static/media/documents__banner@desktop.0d8775d8.jpg",
+    "static/media/documents__banner@desktop.jpg": "/kashalot/static/media/documents__banner@desktop.e7dd5c5a.jpg",
     "static/media/documents__banner@mobile.jpg": "/kashalot/static/media/documents__banner@mobile.6ad31098.jpg",
     "static/media/documents__banner@tablet.jpg": "/kashalot/static/media/documents__banner@tablet.937c5a03.jpg",
     "static/media/dummy.pdf": "/kashalot/static/media/dummy.2942bfab.pdf",
@@ -179,7 +179,7 @@
     "static/js/runtime-main.3fe563ee.js",
     "static/css/2.0016a719.chunk.css",
     "static/js/2.f0c4b13c.chunk.js",
-    "static/css/main.0ca25062.chunk.css",
-    "static/js/main.d1578e81.chunk.js"
+    "static/css/main.edeb8921.chunk.css",
+    "static/js/main.377fecab.chunk.js"
   ]
 }
