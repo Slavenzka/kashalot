@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16ccf8859fc28b0b8e0b61064d72f6d3",
+    "revision": "e4adda58c2f0db44c77ca0108fc587a9",
     "url": "/kashalot/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "f639fbc6d738e4073f3e",
+    "revision": "38dd4be75805986dae93",
     "url": "/kashalot/static/css/main.32e2fcb3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/js/2.b25fab21.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f639fbc6d738e4073f3e",
-    "url": "/kashalot/static/js/main.f0eb252b.chunk.js"
+    "revision": "38dd4be75805986dae93",
+    "url": "/kashalot/static/js/main.5d63bca2.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -254,6 +254,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5a88ad18c66ba58b983f63c8d692365",
     "url": "/kashalot/static/media/about__slide--3.d5a88ad1.jpg"
+  },
+  {
+    "revision": "1a714e5cb43d05396e0996e9e9eb3484",
+    "url": "/kashalot/static/media/about__slide--4.1a714e5c.jpg"
+  },
+  {
+    "revision": "90632739570195275acde954605fbc37",
+    "url": "/kashalot/static/media/about__slide--5.90632739.jpg"
+  },
+  {
+    "revision": "1e128aaabe9df3175269e41c60facac5",
+    "url": "/kashalot/static/media/about__slide--6.1e128aaa.jpg"
+  },
+  {
+    "revision": "3fa5fa0f8cd49d7bb89723afb7d92621",
+    "url": "/kashalot/static/media/about__slide--7.3fa5fa0f.jpg"
+  },
+  {
+    "revision": "bddb0d5a36b693fb53992aa3bd31ed38",
+    "url": "/kashalot/static/media/about__slide--8.bddb0d5a.jpg"
   },
   {
     "revision": "0822d0f54995d7435c054abf7b52a02a",
@@ -690,26 +710,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa03a35361224a5d01c7e19d4a46e565",
     "url": "/kashalot/static/media/specials__banner@desktop.aa03a353.jpg"
-  },
-  {
-    "revision": "1a714e5cb43d05396e0996e9e9eb3484",
-    "url": "/kashalot/static/media/stardend24-about__slide--4.1a714e5c.jpg"
-  },
-  {
-    "revision": "90632739570195275acde954605fbc37",
-    "url": "/kashalot/static/media/stardend24-about__slide--5.90632739.jpg"
-  },
-  {
-    "revision": "1e128aaabe9df3175269e41c60facac5",
-    "url": "/kashalot/static/media/stardend24-about__slide--6.1e128aaa.jpg"
-  },
-  {
-    "revision": "3fa5fa0f8cd49d7bb89723afb7d92621",
-    "url": "/kashalot/static/media/stardend24-about__slide--7.3fa5fa0f.jpg"
-  },
-  {
-    "revision": "bddb0d5a36b693fb53992aa3bd31ed38",
-    "url": "/kashalot/static/media/stardend24-about__slide--8.bddb0d5a.jpg"
   },
   {
     "revision": "d17bf53d2e17dd41e6e62cd0c57a5ca6",
