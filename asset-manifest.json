@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kashalot/static/css/main.b7c9e600.chunk.css",
-    "main.js": "/kashalot/static/js/main.68c04e2a.chunk.js",
-    "main.js.map": "/kashalot/static/js/main.68c04e2a.chunk.js.map",
+    "main.js": "/kashalot/static/js/main.06d29896.chunk.js",
+    "main.js.map": "/kashalot/static/js/main.06d29896.chunk.js.map",
     "runtime-main.js": "/kashalot/static/js/runtime-main.3fe563ee.js",
     "runtime-main.js.map": "/kashalot/static/js/runtime-main.3fe563ee.js.map",
     "static/css/2.0016a719.chunk.css": "/kashalot/static/css/2.0016a719.chunk.css",
     "static/js/2.b6ea994f.chunk.js": "/kashalot/static/js/2.b6ea994f.chunk.js",
     "static/js/2.b6ea994f.chunk.js.map": "/kashalot/static/js/2.b6ea994f.chunk.js.map",
     "index.html": "/kashalot/index.html",
-    "precache-manifest.17ffac27013aad097fec1f101edb1f60.js": "/kashalot/precache-manifest.17ffac27013aad097fec1f101edb1f60.js",
+    "precache-manifest.bdbf55bd01c37640ff774b6c422595bd.js": "/kashalot/precache-manifest.bdbf55bd01c37640ff774b6c422595bd.js",
     "service-worker.js": "/kashalot/service-worker.js",
     "static/css/2.0016a719.chunk.css.map": "/kashalot/static/css/2.0016a719.chunk.css.map",
     "static/css/main.b7c9e600.chunk.css.map": "/kashalot/static/css/main.b7c9e600.chunk.css.map",
@@ -170,10 +170,10 @@
     "static/media/therapy.png": "/kashalot/static/media/therapy.69f926fd.png",
     "static/media/tinified.zip": "/kashalot/static/media/tinified.b4fba40e.zip",
     "static/media/vacancies__banner@desktop.jpg": "/kashalot/static/media/vacancies__banner@desktop.6e1da3ba.jpg",
-    "static/media/video-banner__preview--adaptive.jpg": "/kashalot/static/media/video-banner__preview--adaptive.3ce9068a.jpg",
-    "static/media/video-banner__preview.jpg": "/kashalot/static/media/video-banner__preview.3ce9068a.jpg",
+    "static/media/video-banner__preview--adaptive.jpg": "/kashalot/static/media/video-banner__preview--adaptive.f57c909f.jpg",
+    "static/media/video-banner__preview.jpg": "/kashalot/static/media/video-banner__preview.f57c909f.jpg",
     "static/media/video-banner__video--modal.mp4": "/kashalot/static/media/video-banner__video--modal.9f29a417.mp4",
-    "static/media/video-banner__video--modal@adaptive.mp4": "/kashalot/static/media/video-banner__video--modal@adaptive.9f29a417.mp4",
+    "static/media/video-banner__video--modal@adaptive.mp4": "/kashalot/static/media/video-banner__video--modal@adaptive.2783835e.mp4",
     "static/media/video-banner__video.mp4": "/kashalot/static/media/video-banner__video.f76a2e37.mp4",
     "static/media/video__preview.jpg": "/kashalot/static/media/video__preview.384b5859.jpg"
   },
@@ -182,6 +182,6 @@
     "static/css/2.0016a719.chunk.css",
     "static/js/2.b6ea994f.chunk.js",
     "static/css/main.b7c9e600.chunk.css",
-    "static/js/main.68c04e2a.chunk.js"
+    "static/js/main.06d29896.chunk.js"
   ]
 }
