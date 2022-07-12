@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd3c7e3874d378f04869deee1ae19a37",
+    "revision": "2ee61cd443e37aa6741a55e7bc5be9d1",
     "url": "/kashalot/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "82220c6b8c5b3f28bd53",
-    "url": "/kashalot/static/css/main.ccfb61d7.chunk.css"
+    "revision": "a0aeca5047e19725d75d",
+    "url": "/kashalot/static/css/main.1f15081e.chunk.css"
   },
   {
     "revision": "083563ce509a11d5b4d9",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/js/2.c7ebd56a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82220c6b8c5b3f28bd53",
-    "url": "/kashalot/static/js/main.8e980626.chunk.js"
+    "revision": "a0aeca5047e19725d75d",
+    "url": "/kashalot/static/js/main.ad5b377a.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -384,8 +384,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/certificate-9.4c80b05e.jpg"
   },
   {
-    "revision": "dbd1662458dc8fe0af17f65f1bc20806",
-    "url": "/kashalot/static/media/certificates__banner@desktop.dbd16624.jpg"
+    "revision": "4a03295e6bc3d2ecc9987427d2fe5a38",
+    "url": "/kashalot/static/media/certificates__banner@desktop.4a03295e.jpg"
   },
   {
     "revision": "bdec10c57c764100e86e76aca218374b",
@@ -724,8 +724,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/slider-doctors__photo.4381a2ff.png"
   },
   {
-    "revision": "ff2753607398adffe9bda43f7fcca884",
-    "url": "/kashalot/static/media/special__banner@desktop.ff275360.jpg"
+    "revision": "f5f141f9bd7b7e980202ab5f3bd034b1",
+    "url": "/kashalot/static/media/special__banner@desktop.f5f141f9.jpg"
   },
   {
     "revision": "56520b01fb8b28905c4d1dc81481df9b",
@@ -740,8 +740,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/specials__banner@desktop.aa03a353.jpg"
   },
   {
-    "revision": "d17bf53d2e17dd41e6e62cd0c57a5ca6",
-    "url": "/kashalot/static/media/stardend24-prices__bg.d17bf53d.jpg"
+    "revision": "271faa9eb8dac5e97177737589e9e5b2",
+    "url": "/kashalot/static/media/stardend24-prices__bg.271faa9e.jpg"
   },
   {
     "revision": "da4ab81310db05feb52be6e14fc8f372",
