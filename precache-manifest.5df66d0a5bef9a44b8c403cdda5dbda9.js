@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c54978b504e8c98ab7d77da36ec989b9",
+    "revision": "ec721f61430bcb3420b61fa4d995ce62",
     "url": "/kashalot/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "eaa69da7e026f65f6ad2",
-    "url": "/kashalot/static/css/main.01e4ffb0.chunk.css"
+    "revision": "d25ed633b36e626cca04",
+    "url": "/kashalot/static/css/main.81981f6d.chunk.css"
   },
   {
     "revision": "a9f7db32ba8216b8893a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/js/2.0692bfc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaa69da7e026f65f6ad2",
+    "revision": "d25ed633b36e626cca04",
     "url": "/kashalot/static/js/main.4f6e78c6.chunk.js"
   },
   {
