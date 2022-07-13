@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69095e2739fba33283a4c4c549d3fc95",
+    "revision": "9b12e8f70eb8e389dd64901c3c0e6df4",
     "url": "/kashalot/index.html"
   },
   {
-    "revision": "a9f7db32ba8216b8893a",
+    "revision": "083563ce509a11d5b4d9",
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "b1ff80226143305a49a2",
-    "url": "/kashalot/static/css/main.d90de0de.chunk.css"
+    "revision": "83dff53eddd2a958e96a",
+    "url": "/kashalot/static/css/main.3715224f.chunk.css"
   },
   {
-    "revision": "a9f7db32ba8216b8893a",
-    "url": "/kashalot/static/js/2.0692bfc0.chunk.js"
+    "revision": "083563ce509a11d5b4d9",
+    "url": "/kashalot/static/js/2.c7ebd56a.chunk.js"
   },
   {
     "revision": "bfd0f9ef773c39bd68987561c36447e9",
-    "url": "/kashalot/static/js/2.0692bfc0.chunk.js.LICENSE.txt"
+    "url": "/kashalot/static/js/2.c7ebd56a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b1ff80226143305a49a2",
-    "url": "/kashalot/static/js/main.56865d7a.chunk.js"
+    "revision": "83dff53eddd2a958e96a",
+    "url": "/kashalot/static/js/main.07758c74.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -388,12 +388,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/certificates__banner@desktop.4a03295e.jpg"
   },
   {
+    "revision": "69ef289d26cfcca0018775e7f87c1d0d",
+    "url": "/kashalot/static/media/certificates__banner@mobile.69ef289d.jpg"
+  },
+  {
     "revision": "bdec10c57c764100e86e76aca218374b",
     "url": "/kashalot/static/media/contacts__banner@desktop.bdec10c5.jpg"
   },
   {
-    "revision": "6e8fffa63e4427947008a5a21a35722e",
-    "url": "/kashalot/static/media/contacts__banner@mobile.6e8fffa6.jpg"
+    "revision": "d73292d6ed3cf4ab0fed75084567dda5",
+    "url": "/kashalot/static/media/contacts__banner@mobile.d73292d6.jpg"
   },
   {
     "revision": "cc1d04c75ce3775e6b340f1cf5bbba62",
@@ -476,6 +480,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/doctors__banner@desktop.37845b66.jpg"
   },
   {
+    "revision": "2756ce1e321bf88d9b7aac28ac54168e",
+    "url": "/kashalot/static/media/doctors__banner@mobile.2756ce1e.jpg"
+  },
+  {
     "revision": "13066e8b5d50a94050c495c780b6bb65",
     "url": "/kashalot/static/media/doctors__banner@tablet.13066e8b.jpg"
   },
@@ -520,20 +528,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/documents__banner@desktop.e7dd5c5a.jpg"
   },
   {
-    "revision": "6ad310988492e8787ebbbdea860b05ad",
-    "url": "/kashalot/static/media/documents__banner@mobile.6ad31098.jpg"
+    "revision": "adf969c3a644c2cedfb5b6d069fa661c",
+    "url": "/kashalot/static/media/documents__banner@mobile.adf969c3.jpg"
   },
   {
     "revision": "937c5a033b71811831d766b896ac0175",
     "url": "/kashalot/static/media/documents__banner@tablet.937c5a03.jpg"
   },
   {
-    "revision": "2942bfabb3d05332b66eb128e0842cff",
-    "url": "/kashalot/static/media/dummy.2942bfab.pdf"
-  },
-  {
     "revision": "1c976d01933caee68a8432b7b3ea21c7",
     "url": "/kashalot/static/media/faq__banner@desktop.1c976d01.jpg"
+  },
+  {
+    "revision": "c1285c3bf9db5d9d8c95605ab0f29906",
+    "url": "/kashalot/static/media/faq__banner@mobile.c1285c3b.jpg"
   },
   {
     "revision": "560ce9f53a9aa53d91615a0de5b66d77",
@@ -636,8 +644,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/page404__tooth.c5277043.png"
   },
   {
-    "revision": "f5b130ea5981f444caa625449c9882b6",
-    "url": "/kashalot/static/media/pricelist.f5b130ea.pdf"
+    "revision": "d48cd79c1013fa9c228966685e117d6c",
+    "url": "/kashalot/static/media/pricelist.d48cd79c.xlsx"
   },
   {
     "revision": "90d10a82286e2f7729706c34a4502a8b",
@@ -656,8 +664,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/review-banner__bg@tablet.192de644.jpg"
   },
   {
-    "revision": "22b5910d666f74189bc24959937ccf50",
-    "url": "/kashalot/static/media/review-banner__img--mobile.22b5910d.jpg"
+    "revision": "1b3d1cde40258ec5f658ad57e526a72a",
+    "url": "/kashalot/static/media/review-banner__img--mobile.1b3d1cde.jpg"
   },
   {
     "revision": "1b3d1cde40258ec5f658ad57e526a72a",
@@ -704,6 +712,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/reviews__banner@desktop.27d77960.jpg"
   },
   {
+    "revision": "c7afea48e88b6166120d5d3398ca50c2",
+    "url": "/kashalot/static/media/reviews__banner@mobile.c7afea48.jpg"
+  },
+  {
     "revision": "06a2e749fbb0890905fc2aea6547a35f",
     "url": "/kashalot/static/media/reviews__photo@desktop.06a2e749.png"
   },
@@ -728,6 +740,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/special__banner@desktop.f5f141f9.jpg"
   },
   {
+    "revision": "0d79ba1b0107a9532608452979f38a64",
+    "url": "/kashalot/static/media/special__banner@mobile.0d79ba1b.jpg"
+  },
+  {
     "revision": "56520b01fb8b28905c4d1dc81481df9b",
     "url": "/kashalot/static/media/special__image@desktop.56520b01.jpg"
   },
@@ -738,6 +754,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa03a35361224a5d01c7e19d4a46e565",
     "url": "/kashalot/static/media/specials__banner@desktop.aa03a353.jpg"
+  },
+  {
+    "revision": "0d79ba1b0107a9532608452979f38a64",
+    "url": "/kashalot/static/media/specials__banner@mobile.0d79ba1b.jpg"
+  },
+  {
+    "revision": "f5970b011295e0e0b1a12f16534d5d78",
+    "url": "/kashalot/static/media/stardend24-prices__bg--mobile.f5970b01.jpg"
   },
   {
     "revision": "271faa9eb8dac5e97177737589e9e5b2",
