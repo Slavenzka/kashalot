@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1da8fb2bfd7aed6729186f89bef6d4c",
+    "revision": "d17bd1e5c01a8250b8613f2f1365ebca",
     "url": "/kashalot/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "5da6cd1378c4e94cd864",
-    "url": "/kashalot/static/css/main.c1ebf8f9.chunk.css"
+    "revision": "5d0ec28b777c3b9dbf79",
+    "url": "/kashalot/static/css/main.2e3eab91.chunk.css"
   },
   {
     "revision": "a9f7db32ba8216b8893a",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/js/2.0692bfc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5da6cd1378c4e94cd864",
-    "url": "/kashalot/static/js/main.ac0542a3.chunk.js"
+    "revision": "5d0ec28b777c3b9dbf79",
+    "url": "/kashalot/static/js/main.9e458ff8.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -472,8 +472,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/doctor__promo-video-preview@desktop.4246ecb2.jpg"
   },
   {
-    "revision": "d30e37d6b39f4d4834c81cee2248e27f",
-    "url": "/kashalot/static/media/doctors__banner@desktop.d30e37d6.jpg"
+    "revision": "37845b66e568ff32ef0f91264c1988df",
+    "url": "/kashalot/static/media/doctors__banner@desktop.37845b66.jpg"
   },
   {
     "revision": "13066e8b5d50a94050c495c780b6bb65",
