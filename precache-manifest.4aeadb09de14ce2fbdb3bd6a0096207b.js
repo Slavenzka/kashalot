@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b12e8f70eb8e389dd64901c3c0e6df4",
+    "revision": "cd721b5bf4246ca5613911a69778813e",
     "url": "/kashalot/index.html"
   },
   {
-    "revision": "083563ce509a11d5b4d9",
+    "revision": "ad41f975d241d6022444",
     "url": "/kashalot/static/css/2.0016a719.chunk.css"
   },
   {
-    "revision": "83dff53eddd2a958e96a",
-    "url": "/kashalot/static/css/main.3715224f.chunk.css"
+    "revision": "4791ab98ccb80534b3dd",
+    "url": "/kashalot/static/css/main.12388991.chunk.css"
   },
   {
-    "revision": "083563ce509a11d5b4d9",
-    "url": "/kashalot/static/js/2.c7ebd56a.chunk.js"
+    "revision": "ad41f975d241d6022444",
+    "url": "/kashalot/static/js/2.9a9cb063.chunk.js"
   },
   {
     "revision": "bfd0f9ef773c39bd68987561c36447e9",
-    "url": "/kashalot/static/js/2.c7ebd56a.chunk.js.LICENSE.txt"
+    "url": "/kashalot/static/js/2.9a9cb063.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "83dff53eddd2a958e96a",
-    "url": "/kashalot/static/js/main.07758c74.chunk.js"
+    "revision": "4791ab98ccb80534b3dd",
+    "url": "/kashalot/static/js/main.66c8f1a4.chunk.js"
   },
   {
     "revision": "ea03e5fb711498c5a0d0",
@@ -272,36 +272,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kashalot/static/media/about__photo@desktop.7ac5550c.png"
   },
   {
-    "revision": "3f021c8e64eb1bad404b6cd2ea9f0cf4",
-    "url": "/kashalot/static/media/about__slide--1.3f021c8e.jpg"
-  },
-  {
     "revision": "bf52d405ee25179810c09b9306f7ff54",
-    "url": "/kashalot/static/media/about__slide--2.bf52d405.jpg"
+    "url": "/kashalot/static/media/about__slide--1.bf52d405.jpg"
   },
   {
     "revision": "d5a88ad18c66ba58b983f63c8d692365",
-    "url": "/kashalot/static/media/about__slide--3.d5a88ad1.jpg"
+    "url": "/kashalot/static/media/about__slide--2.d5a88ad1.jpg"
   },
   {
     "revision": "1a714e5cb43d05396e0996e9e9eb3484",
-    "url": "/kashalot/static/media/about__slide--4.1a714e5c.jpg"
+    "url": "/kashalot/static/media/about__slide--3.1a714e5c.jpg"
   },
   {
     "revision": "90632739570195275acde954605fbc37",
-    "url": "/kashalot/static/media/about__slide--5.90632739.jpg"
+    "url": "/kashalot/static/media/about__slide--4.90632739.jpg"
   },
   {
     "revision": "1e128aaabe9df3175269e41c60facac5",
-    "url": "/kashalot/static/media/about__slide--6.1e128aaa.jpg"
+    "url": "/kashalot/static/media/about__slide--5.1e128aaa.jpg"
   },
   {
     "revision": "3fa5fa0f8cd49d7bb89723afb7d92621",
-    "url": "/kashalot/static/media/about__slide--7.3fa5fa0f.jpg"
+    "url": "/kashalot/static/media/about__slide--6.3fa5fa0f.jpg"
   },
   {
     "revision": "bddb0d5a36b693fb53992aa3bd31ed38",
-    "url": "/kashalot/static/media/about__slide--8.bddb0d5a.jpg"
+    "url": "/kashalot/static/media/about__slide--7.bddb0d5a.jpg"
+  },
+  {
+    "revision": "1b3d1cde40258ec5f658ad57e526a72a",
+    "url": "/kashalot/static/media/about__slide--8.1b3d1cde.jpg"
   },
   {
     "revision": "0822d0f54995d7435c054abf7b52a02a",
@@ -806,10 +806,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69f926fd625585551f73fc3951b2394e",
     "url": "/kashalot/static/media/therapy.69f926fd.png"
-  },
-  {
-    "revision": "b4fba40e1584622ae5dc738b5084cb26",
-    "url": "/kashalot/static/media/tinified.b4fba40e.zip"
   },
   {
     "revision": "6e1da3bad504021af69722c845b7ed1f",
