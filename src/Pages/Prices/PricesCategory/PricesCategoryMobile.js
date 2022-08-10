@@ -24,9 +24,7 @@ const PricesCategoryMobile = ({
         valueClassName={css.rowValue}
         cellKey={(
           <div className={css.key}>
-            <span className={css.label}>
-              { label }
-            </span>
+            <span className={css.label} dangerouslySetInnerHTML={{__html: label}} />
             {video &&
               <ButtonPlayMobile
                 className={css.buttonPlay}

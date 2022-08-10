@@ -15,7 +15,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-highlight-mosaic);
+    background-color: rgb(59, 59, 59);
     opacity: 0.6;
   }
 }
@@ -42,6 +42,7 @@ button.play {
 
   margin: 0;
   padding-right: 15%;
+  letter-spacing: -1px;
 }
 
 .sloganDesktop {

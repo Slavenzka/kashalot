@@ -61,11 +61,13 @@ const Reviews = ({ title, list }) => {
             {slide?.name && (
               <div className={css.author}>
                 <p className={css.name}>
-                  {slide.name + ' '}
+                  {slide.name}
                 </p>
-                <span className={css.date}>
-                  {slide.date}
-                </span>
+                {slide?.date && (
+                  <span className={css.date}>
+                    {`, ${slide.date}`}
+                  </span>
+                )}
               </div>
             )}
             <p
@@ -100,16 +102,16 @@ const Reviews = ({ title, list }) => {
             handleClick={() => handlePlayVideo(slide.video)}
           />
          }
-          {!slide.video && !modal &&
-            <img
-              src={slide?.preview
-                ? images('./' + slide.preview)
-                :  imageBlank
-              }
-              className={css.img}
-              alt='Фотография респондента'
-            />
-          }
+          {/*{!slide.video && !modal &&*/}
+          {/*  <img*/}
+          {/*    src={slide?.preview*/}
+          {/*      ? images('./' + slide.preview)*/}
+          {/*      :  imageBlank*/}
+          {/*    }*/}
+          {/*    className={css.img}*/}
+          {/*    alt='Фотография респондента'*/}
+          {/*  />*/}
+          {/*}*/}
         </div>
       )
     })
@@ -123,7 +125,7 @@ const Reviews = ({ title, list }) => {
       <article>
         <Container className={css.container}>
           <Heading className={css.tile} content={title} />
-          <SliderCards className={css.slider} controlsType='styled'>
+          <SliderCards className={css.slider} controlsType='styled' slides={2} sliderEffect={`slide`}>
             { slides }
           </SliderCards>
         </Container>

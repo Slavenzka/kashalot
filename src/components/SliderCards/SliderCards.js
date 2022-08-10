@@ -57,6 +57,7 @@ const SliderCards = ({
     fadeEffect: {
       crossFade: true
     },
+    autoHeight: true,
     getSwiper: setSwiper
   }
 

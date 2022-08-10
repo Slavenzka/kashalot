@@ -2,6 +2,7 @@ import React from 'react'
 import css from './DoctorCard.module.scss'
 import { images } from 'index'
 import { Link } from 'react-router-dom'
+import classnames from 'classnames'
 
 const DoctorCard = ({
   photo,
@@ -12,11 +13,19 @@ const DoctorCard = ({
   isBranchOffice,
   url
 }) => {
+  const isSmallerImage = name.includes(`Панова`)
+  
   return (
     <Link className={css.link} to={url}>
       <figure className={css.content}>
         <div className={css.frame}>
-         <img className={css.photo} src={images('./' + photo)} alt={`Фотография врача ${name}`} />
+         <img
+           className={classnames(css.photo, {
+             [css.photoSmall]: isSmallerImage
+           })}
+           src={images('./' + photo)}
+           alt={`Фотография врача ${name}`}
+         />
         </div>
         <figcaption>
           <p className={css.name} dangerouslySetInnerHTML={{ __html: name }} />

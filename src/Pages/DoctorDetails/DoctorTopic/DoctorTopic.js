@@ -101,19 +101,23 @@ const DoctorTopic = ({
     case 'reviews':
       const slides = topicData.list.map((slide, index) => (
         <div className={css.review} key={`Review slide#${index}`}>
-          <div className={css.reviewIntro}>
-            <p className={css.name}>
-              { slide.name },
-            </p>
-            <p className={css.date}>
-              { slide.date }
-            </p>
-          </div>
+          {slide?.name && (
+            <div className={css.reviewIntro}>
+              <p className={css.name}>
+                {slide.name},
+              </p>
+              <p className={css.date}>
+                {slide.date}
+              </p>
+            </div>
+          )}
           <p className={css.reviewContent} dangerouslySetInnerHTML={{ __html: slide.text }} />
           <div className={css.reviewInfo}>
-            <p className={css.reviewExpertise}>
-              Услуги: { slide.services }
-            </p>
+            {slide?.services && (
+              <p className={css.reviewExpertise}>
+                Услуги: {slide.services}
+              </p>
+            )}
             <p className={css.reviewSpecialist}>
               Специалист: { slide.specialist }
             </p>

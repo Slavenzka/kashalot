@@ -147,7 +147,7 @@ const ArticleMobile = () => {
       },
       {
         type: 'gallery',
-        title: 'Галлерея',
+        title: 'Галерея',
         data: {
           list: [
             {

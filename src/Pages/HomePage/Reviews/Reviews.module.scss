@@ -13,13 +13,9 @@
         margin-left: 0;
         padding-right: 0;
         padding-left: 0;
-        width: 100%;
       }
 
       .swiper-slide {
-        width: 100%;
-        height: auto;
-
         &:not(:last-of-type) {
           margin-right: 0;
         }
@@ -34,9 +30,9 @@
 }
 
 .slide {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 3rem;
+  //display: grid;
+  //grid-template-columns: repeat(2, 1fr);
+  //grid-column-gap: 3rem;
 }
 
 .contentText {
@@ -69,7 +65,7 @@
 }
 
 .date {
-  margin: 0 0 0 0.7rem;
+  margin: 0;
 }
 
 .text {

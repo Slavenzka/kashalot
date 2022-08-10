@@ -11,6 +11,8 @@ import IconQuotes from 'assets/icons/IconQuotes'
 import IconDotsBgDark from 'assets/icons/IconDotsBgDark'
 import classnames from 'classnames'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
+import { DOCTORS } from 'Pages/Routes'
 
 const SliderDoctors = ({ title, list }) => {
   const [ activeTab, setActiveTab ] = useState(0)
@@ -34,11 +36,13 @@ const SliderDoctors = ({ title, list }) => {
       <figure className={css.cardContent}>
         <div className={css.frame}>
           <IconDotsBgDark className={css.iconDots} />
-          <img
-            className={css.photo}
-            src={images('./' + item.photo)}
-            alt={item.name}
-          />
+          <Link to={`${DOCTORS}/${item.id}`}>
+            <img
+              className={css.photo}
+              src={images('./' + item.photo)}
+              alt={item.name}
+            />
+          </Link>
         </div>
         <figcaption className={css.info}>
           <p className={css.name}>

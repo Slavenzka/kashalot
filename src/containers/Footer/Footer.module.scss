@@ -168,8 +168,7 @@
   .copyrightLink {
     &:hover {
       .logo {
-        fill: var(--color-highlight-buttons);
-        opacity: 1;
+        opacity: 0.25;
       }
     }
   }

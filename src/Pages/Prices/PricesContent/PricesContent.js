@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import PricesCategory from 'Pages/Prices/PricesCategory/PricesCategory'
 import { useSelector } from 'react-redux'
 
-const CATEGORIES_UNCOLLAPSED_BY_DEFAULT = 2
+const CATEGORIES_UNCOLLAPSED_BY_DEFAULT = 1
 
 const PricesContent = ({
   className,

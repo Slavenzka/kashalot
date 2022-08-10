@@ -5,6 +5,16 @@ import Container from 'components/Grid/Container'
 import IconLogoCreator from 'assets/icons/IconLogoCreator'
 import { Link } from 'react-router-dom'
 import Social from 'components/Social/Social'
+import {
+  ABOUT_CERTIFICATES,
+  ABOUT_DOCUMENTS,
+  ABOUT_FAQ, ABOUT_US,
+  CONTACTS,
+  DOCTORS,
+  POLICY, PRICES,
+  REVIEWS,
+  SPECIALS
+} from 'Pages/Routes'
 
 const Footer = ({ className }) => {
   const footerData = {
@@ -15,11 +25,11 @@ const Footer = ({ className }) => {
           [
             {
               label: 'Консультация',
-              url: '/'
+              url: PRICES
             },
             {
               label: 'Профилактика',
-              url: '/'
+              url: PRICES
             },
           ]
         ]
@@ -30,21 +40,21 @@ const Footer = ({ className }) => {
           [
             {
               label: 'О нас',
-              url: '/'
+              url: ABOUT_US
             },
             {
               label: 'Частые вопросы',
-              url: '/'
+              url: ABOUT_FAQ
             },
           ],
           [
             {
               label: 'Правовые документы',
-              url: '/'
+              url: ABOUT_DOCUMENTS
             },
             {
               label: 'Лицензии и сертификаты',
-              url: '/'
+              url: ABOUT_CERTIFICATES
             },
           ],
         ]
@@ -53,32 +63,42 @@ const Footer = ({ className }) => {
         list: [
           {
             label: 'Акции',
-            url: '/'
+            url: SPECIALS
           },
           {
             label: 'Врачи',
-            url: '/'
+            url: DOCTORS
           },
           {
             label: 'Контакты',
-            url: '/'
+            url: CONTACTS
           },
           {
             label: 'Отзывы',
-            url: '/'
+            url: REVIEWS
           },
         ]
       }
     ],
+    social: [
+      {
+        type: 'telegram',
+        url: '/#'
+      },
+      {
+        type: 'vk',
+        url: '/#'
+      },
+    ],
     companyInfo: {
-      startYear: '2008',
-      schedule: 'с&nbsp;9:00 до&nbsp;18:00, воскресенье&nbsp;&mdash; выходной',
+      startYear: 2008,
+      schedule: 'пнд, втр, чтв, сбт с 10.00 до 20.00',
     },
     siteInfo: {
       links: [
         {
           text: 'Политика конфиденциальности',
-          url: '/'
+          url: POLICY
         },
       ]
     }
@@ -163,12 +183,6 @@ const Footer = ({ className }) => {
           <ul className={css.auxList}>
             { siteInfoLinks }
           </ul>
-          <div className={css.counter}>
-            <div className={css.metrics}>
-              Some counter
-              {/*<YMInitializer accounts={[31337]} options={{webvisor: true}} version='2' />*/}
-            </div>
-          </div>
           <p
             className={css.timeline}
             dangerouslySetInnerHTML={{ __html: `&copy;${footerData.companyInfo.startYear} - ${new Date().getFullYear()}` }}

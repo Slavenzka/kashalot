@@ -26,7 +26,7 @@ const AboutUsFAQ = () => {
 
   return (
     <>
-      <Banner {...faqData.banner} className={css.banner} />
+      <Banner {...faqData.banner} />
       <Container className={css.container}>
         <Breadcrumbs dataArray={breadcrumbs} />
         <TwoColumns

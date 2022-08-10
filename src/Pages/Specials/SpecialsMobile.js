@@ -10,10 +10,9 @@ import { HOME_PAGE_DATA } from 'Pages/HomePage/_assets/data'
 const SpecialsMobile = () => {
   const specialsData = {
     banner: {
-      bgImageMobile: 'stardent24__specials-banner.jpg',
-      bgImageTablet: 'stardent24__specials-banner.jpg',
+      bgImageMobile: 'special__banner@mobile.jpg',
+      bgImageTablet: 'special__banner@mobile.jpg',
       title: 'Акции',
-      descriptor: 'Предложения действительные на сегодняшний день',
     },
     ads: HOME_PAGE_DATA.services.ads.map(({id, ...item}) => ({
       ...item,

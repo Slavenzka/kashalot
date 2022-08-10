@@ -1,31 +1,29 @@
 export const contactsData = {
   banner: {
     bgImage: 'contacts__banner@desktop.jpg',
-    bgImageTablet: 'contacts__banner@desktop.jpg',
-    bgImageMobile: 'contacts__banner@desktop.jpg',
+    bgImageTablet: 'contacts__banner@mobile.jpg',
+    bgImageMobile: 'contacts__banner@mobile.jpg',
     title: 'Как до нас добраться',
-    descriptor: 'Мы&nbsp;расположены в&nbsp;шаговой доступности от&nbsp;метро Домодедовская',
   },
   title: 'Филиалы клиники',
   list: [
     {
-      name: 'Стардент на Домодедовской',
+      name: 'Кашалот',
       city: 'Москва',
-      address: 'Ореховый бульвар 20/2',
-      coords: [55.611953, 37.729700],
-      schedule: 'с 9:00 до 18:00, воскресенье - выходной',
-      phone: '+7 (499) 136 87 77',
-      mail: 'mail@stardent24.ru',
+      address: 'Каширское шоссе, д. 65, к.2',
+      coords: [55.599957, 37.724633],
+      schedule: 'пнд, втр, чтв, сбт с 10.00 до 20.00',
+      phone: '+7 (926) 965-22-02',
       gallery: [
         {
-          img: 'stardent24__location.jpg',
-          label: 'Расположение клиники Stardent'
+          img: 'contacts__location.jpg',
+          label: 'Расположение клиники Kashalot'
         },
       ]
     },
   ],
   mapSettings: {
-    zoom: 13,
-    center: [55.611953, 37.729700]
+    zoom: 16,
+    center: [55.599957, 37.724633]
   }
 }

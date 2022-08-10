@@ -1,35 +1,30 @@
-import { DOCTORS } from 'utils/const'
-
 export const doctorsData = {
   banner: {
-    bgImage: 'stardent24__doctors-banner.jpg',
-    bgImageTablet: 'stardent24__doctors-banner.jpg',
-    bgImageMobile: 'stardent24__doctors-banner.jpg',
+    bgImage: 'doctors__banner@desktop.jpg',
+    bgImageTablet: 'doctors__banner@mobile.jpg',
+    bgImageMobile: 'doctors__banner@mobile.jpg',
     title: 'Врачи',
-    descriptor: 'Врач - это человек наполненный состраданием и желанием помочь другим людям'
   },
   list: [
     {
       id: 0,
-      name: 'Харитонов Владимир Иванович',
-      expertise: 'Cтоматолог-хирург, имплантолог, ортопед',
-      address: 'Общая стоматология',
-      photo: 'doctors__photo--kharitonov.png',
+      name: 'Максим Сергеевич Москалев ',
+      expertise: 'Стоматолог-ортопед, стоматолог-хирург, имплантолог',
+      photo: 'doctors__photo--moskalev.png',
     },
     {
       id: 1,
-      name: 'Харитонов Андрей Иванович',
-      expertise: 'Врач стоматолог-терапевт, хирург',
-      address: 'Общая стоматология',
-      photo: 'doctors__photo--kharitonov2.png',
+      name: 'Лали Нодариевна Москалева ',
+      expertise: 'Стоматолог-терапевт, детский стоматолог',
+      address: 'Ведет практику более 20 лет',
+      photo: 'doctors__photo--moskaleva.png',
     },
     {
       id: 2,
-      url: DOCTORS,
-      name: 'Бозиева Фатима Назировна',
-      expertise: 'Врач стоматолог-терапевт',
-      address: 'Терапия',
-      photo: 'doctors__photo--bozieva.png',
+      name: 'Ксения Андреевна Панова',
+      expertise: 'Стоматолог-терапевт',
+      address: 'Ведет практику более 3 лет',
+      photo: 'doctors__photo--panova.png',
     },
   ]
 }

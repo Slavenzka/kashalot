@@ -5,12 +5,18 @@ import { images } from 'index'
 import Heading from 'components/Heading/Heading'
 import ContainerMobile from 'components/Grid/ContainerMobile'
 import BreadcrumbsMobile from 'components/Breadcrumbs/BreadcrumbsMobile'
+import Button from 'components/Button/Button'
+import { openContentModal } from 'store/actions/ui'
+import ModalAppointmentMobile from 'components/ModalAppointment/ModalAppointmentMobile'
+import { useDispatch } from 'react-redux'
 
 const DoctorBannerMobile = ({
   breadcrumbs,
   data,
   reviewsQuantity
 }) => {
+  const dispatch = useDispatch()
+  
   const {
     photo,
     name,
@@ -18,7 +24,11 @@ const DoctorBannerMobile = ({
     address = '',
     experience = ''
   } = data
-
+  
+  const openAppointmentModal = () => {
+    dispatch(openContentModal(<ModalAppointmentMobile />))
+  }
+  
   return (
     <>
       <ContainerMobile className={css.container}>
@@ -39,6 +49,11 @@ const DoctorBannerMobile = ({
               <li className={classnames(css.item, css.itemExperience)} dangerouslySetInnerHTML={{ __html: experience }} />
             }
           </ul>
+          <Button
+            className={css.btn}
+            label='Записаться'
+            handleClick={() => openAppointmentModal()}
+          />
         </div>
         <div className={css.frame}>
           <img className={css.photo} src={images('./' + photo)} alt={`Фото ${name}`} />

@@ -1,7 +1,7 @@
 import React from 'react'
 import css from './Header.module.scss'
 import Container from 'components/Grid/Container'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { HOME_PAGE } from 'Pages/Routes'
 import DesktopMenu from './components/DesktopMenu/DesktopMenu'
 import Button from 'components/Button/Button'
@@ -17,8 +17,9 @@ import classnames from 'classnames'
 const Header = () => {
   const dispatch = useDispatch()
   const {type} = useVideoBanner()
+  const {pathname} = useLocation()
   
-  const isHeaderAbsolute = type !== 1
+  const isHeaderAbsolute = type !== 1 && pathname === HOME_PAGE
 
   return (
     <header
@@ -38,7 +39,7 @@ const Header = () => {
             <img
               className={css.iconLogo}
               src={logo}
-              alt="Stardent24 logo"
+              alt="Kashalot logo"
             />
           </Link>
           <DesktopMenu

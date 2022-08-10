@@ -142,7 +142,7 @@ const Article = () => {
       },
       {
         type: 'gallery',
-        title: 'Галлерея',
+        title: 'Галерея',
         data: {
           list: [
             {

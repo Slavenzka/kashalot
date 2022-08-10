@@ -3,7 +3,7 @@ import {
   ABOUT_DOCUMENTS,
   ABOUT_FAQ,
   ABOUT_US, CONTACTS,
-  DOCTORS,
+  DOCTORS, POLICY,
   PRICES,
   REVIEWS,
   SPECIALS
@@ -11,8 +11,8 @@ import {
 
 export const headerData = {
   withSearch: true,
-  schedule: 'с&nbsp;9:00 до&nbsp;18:00, воскресенье&nbsp;&mdash; выходной',
-  phones: ['+7 (499) 136 87 77'],
+  schedule: 'пн, вт, чт, сб с 10.00 до 20.00',
+  phones: ['+7 (926) 965 22 02'],
   list: [
     {
       text: 'Услуги и цены',
@@ -58,12 +58,8 @@ export const headerData = {
   ],
   auxList: [
     {
-      text: 'Карта сайта',
-      url: '/'
-    },
-    {
       text: 'Политика конфиденциальности',
-      url: '/'
+      url: POLICY
     }
   ]
 }

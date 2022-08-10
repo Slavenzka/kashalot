@@ -51,6 +51,20 @@
       z-index: 1;
     }
   }
+
+  &.linkTherapy {
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 1rem;
+      right: 0;
+      width: 12rem;
+      height: 12rem;
+      background-image: url("../../assets/images/therapy.png");
+      background-size: cover;
+      z-index: 1;
+    }
+  }
 }
 
 .duration {

@@ -5,6 +5,7 @@ import IconClose from 'containers/Header/_assets/IconClose'
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock'
 import ContainerMobile from 'components/Grid/ContainerMobile'
 import PropTypes from 'prop-types'
+import {isIOS} from 'react-device-detect'
 
 const ModalMobile = ({
   isVisible = false,
@@ -48,10 +49,12 @@ const ModalMobile = ({
   }, [isVisible])
 
   useEffect(() => {
-    if (isVisible) {
+    if (isVisible && !isIOS) {
       disableBodyScroll(wrapperRef.current, { reserveScrollBarGap: true })
+    } else {
+      enableBodyScroll(wrapperRef.current)
     }
-  }, [isVisible])
+  }, [isVisible, isIOS])
 
   useEffect(() => {
     const handleModalClosing = () => {

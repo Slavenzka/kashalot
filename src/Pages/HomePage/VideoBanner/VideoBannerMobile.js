@@ -54,7 +54,7 @@ const VideoBannerMobile = ({
         <ContainerMobile className={css.container}>
           <div className={css.textContent}>
             <p className={css.sloganAdaptive} dangerouslySetInnerHTML={{ __html: bottom.sloganAdaptive }} />
-            <p className={css.descriptor} dangerouslySetInnerHTML={{ __html: bottom.descriptor }} />
+            <p className={css.descriptor} dangerouslySetInnerHTML={{ __html: bottom.descriptorMobile }} />
           </div>
           <div className={css.btn}>
             <ButtonMobile
@@ -71,7 +71,7 @@ const VideoBannerMobile = ({
       </div>
       <ModalMobile isVisible={isModalVisible} handleCloseModal={handleCloseModal}>
         <video className={css.video} controls autoPlay ref={videoRef}>
-          <source src={videos('./' + top.modalVideo)} />
+          <source src={videos('./' + top.modalVideoMobile)} />
         </video>
       </ModalMobile>
     </section>

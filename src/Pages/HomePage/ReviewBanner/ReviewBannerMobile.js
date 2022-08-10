@@ -6,7 +6,7 @@ import IconQuotes from 'assets/icons/IconQuotes'
 import ContainerMobile from 'components/Grid/ContainerMobile'
 import PropTypes from 'prop-types'
 
-const ReviewBannerMobile = ({ bgImages, quote, author }) => {
+const ReviewBannerMobile = ({ bgImages, quoteMobile: quote, author }) => {
   const type = useSelector(state => state.elastic.deviceType)
   let backgroundImage
 

@@ -122,7 +122,7 @@
         bottom: 0;
         width: 100%;
         height: 25%;
-        background-image: linear-gradient(to top, var(--color-highlight-mosaic) 0%, transparent 100%);
+        background-image: linear-gradient(to top, rgb(119, 194, 255) 0%, rgba(119, 194, 255, 0) 100%);
         background-size: cover;
         z-index: 1;
       }

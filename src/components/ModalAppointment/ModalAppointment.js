@@ -11,7 +11,7 @@ import { useDispatch } from 'react-redux'
 import { closeModal } from 'store/actions/ui'
 
 const ModalAppointment = ({
-  isWithImage = true
+  isWithImage = false
 }) => {
   const { register, handleSubmit, errors } = useForm()
   const [isFetching, setFetching] = useState(false)

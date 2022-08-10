@@ -35,7 +35,6 @@ const ReviewsPageMobile = () => {
     <>
       <BannerMobile
         {...reviewsData.banner}
-        extraBlock={bannerLink}
       />
       <ContainerMobile className={css.container}>
         <BreadcrumbsMobile dataArray={breadcrumbs} />

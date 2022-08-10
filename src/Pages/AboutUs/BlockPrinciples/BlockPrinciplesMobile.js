@@ -11,7 +11,7 @@ const BlockPrinciplesMobile = ({
   data
 }) => {
   const { title, descriptor, data: blockData } = data
-  const [isCollapseOpened, updateCollapseStatus] = useState(isTablet || false)
+  const [isCollapseOpened, updateCollapseStatus] = useState(blockData.list.length <= 2 || isTablet || false)
 
   const items = blockData.list.map((item, index) => (
     <li className={css.item} key={`About principles item#${index}`}>

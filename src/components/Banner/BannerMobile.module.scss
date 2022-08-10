@@ -5,12 +5,13 @@
   @include overlay;
 
   background-size: cover;
-  background-position: 40% center;
+  background-position: 75% top;
 }
 
 .container {
-  padding-top: calc(7.3rem + 2.8rem);
+  padding-top: 7rem;
   padding-bottom: calc(4rem + 3.2rem);
+  height: 20rem;
 }
 
 .title {

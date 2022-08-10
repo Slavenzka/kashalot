@@ -34,9 +34,11 @@ const ReviewCardMobile = (props) => {
 
   return (
     <article className={classnames(css.card, { [css.cardModal]: isModal })}>
-      <p className={css.name}>
-        { `${name}, ${date}` }
-      </p>
+      {name && (
+        <p className={css.name}>
+          {`${name}, ${date ?? ``}`}
+        </p>
+      )}
       <p className={css.text} dangerouslySetInnerHTML={{ __html: isModal ? text : pureText }} />
       {isButtonRequired &&
         <button
@@ -51,9 +53,11 @@ const ReviewCardMobile = (props) => {
         <p className={css.info}>
           { doctor }
         </p>
-        <p className={css.info}>
-          { services }
-        </p>
+        {services && (
+          <p className={css.info}>
+            {services}
+          </p>
+        )}
       </div>
     </article>
   )

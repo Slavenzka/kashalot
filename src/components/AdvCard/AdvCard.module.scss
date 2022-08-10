@@ -57,9 +57,9 @@
       content: "";
       position: absolute;
       bottom: 1rem;
-      right: 2.3rem;
-      width: 17rem;
-      height: 17rem;
+      right: 0;
+      width: 19rem;
+      height: 19rem;
       background-image: url("../../assets/images/therapy.png");
       background-size: cover;
       z-index: 1;
@@ -185,8 +185,8 @@
 
   &.linkJaw {
     &::before {
-      bottom: -3.1rem;
-      right: -3rem;
+      bottom: 0.5rem;
+      right: 1rem;
       width: 15.6rem;
       height: 17.5rem;
     }

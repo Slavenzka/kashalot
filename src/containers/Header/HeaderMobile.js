@@ -6,7 +6,7 @@ import { HOME_PAGE } from 'Pages/Routes'
 import IconBurger from 'containers/Header/_assets/IconBurger'
 import AdaptiveMenu from './components/AdaptiveMenu/AdaptiveMenu'
 import ContainerMobile from 'components/Grid/ContainerMobile'
-import logo from 'assets/images/logo__small.png'
+import logo from 'assets/images/logo.png'
 import { headerData } from 'containers/Header/_assets/data'
 
 const HeaderMobile = (props) => {
@@ -28,7 +28,7 @@ const HeaderMobile = (props) => {
             <img
               className={css.iconLogo}
               src={logo}
-              alt="Stardent24 logo"
+              alt="Kashalot logo"
             />
           </Link>
           {/*{withSearch &&*/}

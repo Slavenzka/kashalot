@@ -71,13 +71,17 @@
   }
 }
 
+.rowKey {
+  width: 70%;
+}
+
+.rowValue {
+  width: 30%;
+}
+
 .key {
   display: flex;
   align-items: flex-start;
-
-  .label {
-    width: 14rem;
-  }
 }
 
 .buttonPlay {
@@ -109,14 +113,6 @@
     margin-top: 2rem;
     margin-left: 0;
     width: 100%;
-  }
-
-  .rowKey {
-    width: 70%;
-  }
-
-  .rowValue {
-    width: 30%;
   }
 
   .key {

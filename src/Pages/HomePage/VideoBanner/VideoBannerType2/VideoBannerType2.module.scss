@@ -47,7 +47,7 @@
 .content {
   position: relative;
   margin-left: 24rem;
-  width: 41rem;
+  //width: 48rem;
 
   &::before {
 
@@ -56,6 +56,8 @@
 
 .heading {
   @include h0(var(--color-lightest));
+
+  width: 70rem;
 }
 
 .description {

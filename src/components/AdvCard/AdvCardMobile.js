@@ -32,6 +32,7 @@ const AdvCardMobile = ({
         [css.linkTeeth]: type === 'teeth',
         [css.linkImplant]: type === 'implant-single',
         [css.linkJaw]: type === 'implants-jaw',
+        [css.linkTherapy]: type === `therapy`,
         [css.compact]: isCompact
       })}
       style={{backgroundColor: color}}

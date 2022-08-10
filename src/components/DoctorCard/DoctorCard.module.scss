@@ -41,6 +41,13 @@
 .photo {
   position: relative;
   width: 100%;
+  max-height: 45rem;
+  object-fit: contain;
+  object-position: center top;
+}
+
+.photoSmall {
+  max-height: 42rem;
 }
 
 .name {

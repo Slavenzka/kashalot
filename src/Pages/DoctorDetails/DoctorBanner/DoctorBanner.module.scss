@@ -21,79 +21,97 @@
     background-image: url("../../../assets/icons/icon__doctor-banner-bg.svg");
     background-size: cover;
   }
-}
 
-.text {
-  padding-top: 4.6rem;
-  padding-bottom: 11.6rem;
-}
-
-.breadcrumbs {
-  padding: 0;
-  width: 100%;
-}
-
-.title {
-  margin-top: 7.6rem;
-}
-
-.speciality {
-  @include h8(var(--color-font-main));
-
-  margin: 2.5rem 0 0 0;
-  opacity: 0.7;
-}
-
-.photo {
-  position: relative;
-  margin-top: auto;
-  width: 50rem;
-  height: 55.5rem;
-  object-fit: cover;
-}
-
-.list {
-  @include resetList;
-
-  margin-top: 4.6rem;
-}
-
-.item {
-  @include regular(var(--color-font-main));
-
-  position: relative;
-  display: flex;
-  align-items: center;
-  opacity: 0.7;
-
-  &::before {
-    content: "";
-    display: inline-block;
-    margin-right: 1.4rem;
-    width: 2.4rem;
-    height: 2.4rem;
-    background-size: cover;
+  .text {
+    padding-top: 4.6rem;
+    padding-bottom: 11.6rem;
   }
 
-  &:not(:first-child) {
-    margin-top: 1.9rem;
+  .breadcrumbs {
+    padding: 0;
+    width: 100%;
   }
-}
 
-.itemAddress {
-  &::before {
-    background-image: url("../../../assets/icons/icon__location.svg");
+  .title {
+    margin-top: 7.6rem;
   }
-}
 
-.itemReviews {
-  &::before {
-    background-image: url("../../../assets/icons/icon__speech.svg");
+  .speciality {
+    @include h8(var(--color-font-main));
+
+    margin: 2.5rem 0 0 0;
+    opacity: 0.7;
   }
-}
 
-.itemExperience {
-  &::before {
-    background-image: url("../../../assets/icons/icon__doctor.svg");
+  .photo {
+    position: relative;
+    margin-top: auto;
+    width: 50rem;
+    height: 55.5rem;
+    object-fit: cover;
+  }
+
+  .list {
+    @include resetList;
+
+    margin-top: 4.6rem;
+  }
+
+  .item {
+    @include regular(var(--color-font-main));
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      margin-right: 1.4rem;
+      width: 2.4rem;
+      height: 2.4rem;
+      background-size: cover;
+    }
+
+    &:not(:first-child) {
+      margin-top: 1.9rem;
+    }
+  }
+
+  .itemAddress {
+    &::before {
+      background-image: url("../../../assets/icons/icon__location.svg");
+    }
+  }
+
+  .itemReviews {
+    &::before {
+      background-image: url("../../../assets/icons/icon__speech.svg");
+    }
+  }
+
+  .itemExperience {
+    &::before {
+      background-image: url("../../../assets/icons/icon__doctor.svg");
+    }
+  }
+
+  .controls {
+    .button {
+      margin-top: 3rem;
+      width: 20rem;
+      background-color: rgb(119, 194, 255);
+      color: white;
+      border-color: rgb(119, 194, 255);
+
+      &:hover {
+        background-color: rgb(119, 194, 255);
+      }
+
+      svg {
+        stroke: white;
+      }
+    }
   }
 }

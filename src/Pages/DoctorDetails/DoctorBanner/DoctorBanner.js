@@ -5,12 +5,18 @@ import Container from 'components/Grid/Container'
 import Breadcrumbs from 'components/Breadcrumbs/Breadcrumbs'
 import { images } from 'index'
 import Heading from 'components/Heading/Heading'
+import Button from 'components/Button/Button'
+import { openContentModal } from 'store/actions/ui'
+import ModalAppointment from 'components/ModalAppointment/ModalAppointment'
+import { useDispatch } from 'react-redux'
 
 const DoctorBanner = ({
   breadcrumbs,
   data,
   reviewsQuantity
 }) => {
+  const dispatch = useDispatch()
+  
   const {
     photo,
     name,
@@ -38,6 +44,16 @@ const DoctorBanner = ({
             <li className={classnames(css.item, css.itemExperience)} dangerouslySetInnerHTML={{ __html: experience }} />
           }
         </ul>
+        <div className={css.controls}>
+          <Button
+            label='Записаться'
+            btnStyle='filledDecorated'
+            handleClick={() => {
+              dispatch(openContentModal(<ModalAppointment />))}
+            }
+            className={css.button}
+          />
+        </div>
       </div>
       <img className={css.photo} src={images('./' + photo)} alt={`Фото ${name}`} />
     </Container>

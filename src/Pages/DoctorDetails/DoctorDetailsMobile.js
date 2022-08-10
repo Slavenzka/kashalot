@@ -38,7 +38,7 @@ const DoctorDetailsMobile = () => {
   const reviews = doctorData.content.find(item => item.type === 'reviews')
 
   return (
-    <section className={css.section}>
+    <section>
       <DoctorBannerMobile
         breadcrumbs={breadcrumbs}
         data={doctorData.banner}

@@ -22,9 +22,7 @@ const PricesCategory = ({
       <TableRow
         cellKey={(
           <>
-            <span>
-              { label }
-            </span>
+            <span dangerouslySetInnerHTML={{__html: label}} />
             {video &&
               <ButtonPlay
                 className={css.buttonPlay}
@@ -35,6 +33,7 @@ const PricesCategory = ({
           </>
         )}
         cellValue={price ? `${price} &#x20BD;` : null}
+        className={css.row}
         index={rowIndex}
         key={`Price list row ${index}-${rowIndex}`}
       />

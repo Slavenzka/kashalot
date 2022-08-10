@@ -10,6 +10,8 @@ import PropTypes from 'prop-types'
 import ContainerMobile from 'components/Grid/ContainerMobile'
 import ButtonMobile from 'components/Button/ButtonMobile'
 import ButtonSlider from 'components/ButtonSlider/ButtonSlider'
+import { Link } from 'react-router-dom'
+import { DOCTORS } from 'Pages/Routes'
 
 const SliderDoctorsMobile = ({ title, list }) => {
   const [swiper, setSwiper] = useState(null)
@@ -41,7 +43,7 @@ const SliderDoctorsMobile = ({ title, list }) => {
 
   const paramsAdaptive = {
     slidesPerView: 1,
-    speed: 700,
+    speed: 1000,
     effect: 'slide',
     spaceBetween: 20,
     breakpoints: {
@@ -62,11 +64,13 @@ const SliderDoctorsMobile = ({ title, list }) => {
       <figure className={css.cardContent}>
         <div className={css.frame}>
           <IconDotsBgDark className={css.iconDots} />
-          <img
-            className={css.photo}
-            src={images('./' + item.photo)}
-            alt={item.name}
-          />
+          <Link to={`${DOCTORS}/${item.id}`}>
+            <img
+              className={css.photo}
+              src={images('./' + item.photo)}
+              alt={item.name}
+            />
+          </Link>
         </div>
         <figcaption className={css.info}>
           <p className={css.name}>

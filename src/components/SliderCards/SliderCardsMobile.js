@@ -21,7 +21,8 @@ const SliderCardsMobile = ({
       el: '.swiper-pagination',
       type: 'progressbar',
     },
-    loop: isLoop
+    loop: isLoop,
+    speed: 1000
   }
 
   return (

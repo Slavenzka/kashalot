@@ -31,6 +31,11 @@
   &::before {
     opacity: 0.3;
   }
+
+  button.btn {
+    margin-top: 2.1rem;
+    background-color: rgb(119, 194, 255);
+  }
 }
 
 .content {
@@ -101,10 +106,6 @@
 .phoneLink {
   @include h1(var(--color-font-main));
   font-weight: 400;
-}
-
-button.btn {
-  margin-top: 2.1rem;
 }
 
 .switchColorsBtn {
