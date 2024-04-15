@@ -1,18 +1,10 @@
 export const dataSocial = [
   {
-    type: 'facebook',
-    url: '/'
+    type: 'telegram',
+    url: 'https://t.me/+79269652202'
   },
   {
-    type: 'vk',
-    url: '/'
-  },
-  {
-    type: 'twitter',
-    url: '/'
-  },
-  {
-    type: 'instagram',
-    url: '/'
+    type: 'whatsapp',
+    url: 'https://wa.me/+79269652202'
   },
 ]

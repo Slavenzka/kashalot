@@ -92,7 +92,7 @@ const Footer = ({ className }) => {
     ],
     companyInfo: {
       startYear: 2008,
-      schedule: 'пнд, втр, чтв, сбт с 10.00 до 20.00',
+      schedule: 'вт, ср, чт, пт, сб с 10.00 до 21.00',
     },
     siteInfo: {
       links: [

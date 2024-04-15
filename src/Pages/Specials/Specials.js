@@ -6,6 +6,7 @@ import { HOME_PAGE, SPECIALS } from 'Pages/Routes'
 import Breadcrumbs from 'components/Breadcrumbs/Breadcrumbs'
 import SpecialsList from 'Pages/Specials/SpecialsList/SpecialsList'
 import { HOME_PAGE_DATA } from 'Pages/HomePage/_assets/data'
+import withModal from 'hoc/withModal'
 
 const Specials = () => {
   const specialsData = {
@@ -38,4 +39,4 @@ const Specials = () => {
   )
 }
 
-export default Specials
+export default React.memo(withModal(Specials))

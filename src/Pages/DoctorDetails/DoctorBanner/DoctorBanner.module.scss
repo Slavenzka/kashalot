@@ -44,11 +44,14 @@
   }
 
   .photo {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 50rem / 2 - 20rem);
     margin-top: auto;
-    width: 50rem;
-    height: 55.5rem;
-    object-fit: cover;
+    width: 55rem;
+    height: 62rem;
+    object-fit: contain;
+    object-position: center bottom;
   }
 
   .list {

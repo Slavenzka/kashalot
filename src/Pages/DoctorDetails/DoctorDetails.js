@@ -55,4 +55,4 @@ const DoctorDetails = () => {
   )
 }
 
-export default withModal(DoctorDetails)
+export default React.memo(withModal(DoctorDetails))

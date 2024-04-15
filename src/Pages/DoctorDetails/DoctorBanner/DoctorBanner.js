@@ -55,7 +55,11 @@ const DoctorBanner = ({
           />
         </div>
       </div>
-      <img className={css.photo} src={images('./' + photo)} alt={`Фото ${name}`} />
+      <img
+        className={css.photo}
+        src={images('./' + photo)}
+        alt={`Фото ${name}`}
+      />
     </Container>
   )
 }

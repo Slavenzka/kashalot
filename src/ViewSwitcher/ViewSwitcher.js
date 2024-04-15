@@ -33,8 +33,11 @@ const ViewSwitcher = () => {
   })
   
   useEffect(() => {
-    console.log(pathname)
-    document.documentElement.scrollTo(0, 0)
+    document.documentElement.scrollTo({
+      left: 0,
+      top: 0,
+      behavior: `smooth`
+    })
   }, [pathname])
 
   if (!type) return null

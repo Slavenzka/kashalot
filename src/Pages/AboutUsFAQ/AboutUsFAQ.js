@@ -8,6 +8,7 @@ import { ABOUT_US, HOME_PAGE } from 'Pages/Routes'
 import Breadcrumbs from 'components/Breadcrumbs/Breadcrumbs'
 import FaqList from 'Pages/AboutUsFAQ/FaqList/FaqList'
 import { faqData } from 'Pages/AboutUsFAQ/_assets/data'
+import withModal from 'hoc/withModal'
 
 const AboutUsFAQ = () => {
   const breadcrumbs = [
@@ -39,4 +40,4 @@ const AboutUsFAQ = () => {
   )
 }
 
-export default AboutUsFAQ
+export default React.memo(withModal(AboutUsFAQ))

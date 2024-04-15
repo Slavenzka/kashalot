@@ -11,7 +11,7 @@ import {
 
 export const headerData = {
   withSearch: true,
-  schedule: 'пн, вт, чт, сб с 10.00 до 20.00',
+  schedule: 'вт, ср, чт, пт, сб с 10.00 до 21.00',
   phones: ['+7 (926) 965 22 02'],
   list: [
     {

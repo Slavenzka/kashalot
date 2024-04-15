@@ -8,6 +8,7 @@ import Container from 'components/Grid/Container'
 import { useDispatch } from 'react-redux'
 import { setDoctorsFilter } from 'store/actions'
 import { doctorsData } from 'Pages/Doctors/_assets/data'
+import withModal from 'hoc/withModal'
 
 const Doctors = () => {
   const breadcrumbs = [
@@ -39,4 +40,4 @@ const Doctors = () => {
 )
 }
 
-export default Doctors
+export default React.memo(withModal(Doctors))

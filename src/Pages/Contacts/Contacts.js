@@ -7,6 +7,7 @@ import ContactsTabs from 'Pages/Contacts/ContactsTabs/ContactsTabs'
 import Banner from 'components/Banner/Banner'
 import MapComponent from 'components/Map/Map'
 import { contactsData } from 'Pages/Contacts/_assets/data'
+import withModal from 'hoc/withModal'
 
 const Contacts = () => {
   const breadcrumbs = [
@@ -54,4 +55,4 @@ const Contacts = () => {
   )
 }
 
-export default Contacts
+export default React.memo(withModal(Contacts))

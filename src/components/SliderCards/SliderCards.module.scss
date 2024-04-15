@@ -57,7 +57,7 @@
   @include h9-regular(var(--color-font-main));
 
   display: inline-block;
-  width: 1.5rem;
+  min-width: 1.5rem;
 }
 
 .total {

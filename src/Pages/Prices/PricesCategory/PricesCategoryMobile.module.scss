@@ -66,6 +66,8 @@
 }
 
 .row {
+  display: flex;
+
   & > * {
     @include regular(var(--color-font-main));
   }

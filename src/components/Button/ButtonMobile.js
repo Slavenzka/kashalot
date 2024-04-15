@@ -13,7 +13,8 @@ const ButtonMobile = ({
   btnStyle = 'filled',
   label = '',
   handleClick = () => {},
-  isLoading
+  isLoading,
+  type = 'button',
 }) => {
   const ComponentName = url ? Link : 'button'
 
@@ -26,7 +27,7 @@ const ButtonMobile = ({
         [css.buttonFilledDecorated]: btnStyle === 'filledDecorated',
         [css.buttonLoading]: isLoading
       })}
-      type={url ? '' : 'button'}
+      type={url ? '' : type}
       to={url}
       onClick={url ? () => {} : handleClick}
     >

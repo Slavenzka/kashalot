@@ -59,7 +59,7 @@ class Routes extends PureComponent {
         <Route exact path={CONTACTS} component={Contacts} />
         <Route exact path={CONTACTS} component={Contacts} />
         <Route exact path={POLICY} component={Policy} />
-        <Route component={Page404} />
+        <Route path="*" component={Page404} />
       </Switch>
     )
   }

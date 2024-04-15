@@ -71,10 +71,10 @@ const SliderCards = ({
           {+totalSlides > 0 &&
             <div className={classnames(css.fractions, 'slider-fractions')}>
               <span className={css.active}>
-                { activeIndex < 10 ? '0' + (activeIndex + 1) : activeIndex + 1 }
+                { activeIndex < 9 ? '0' + (activeIndex + 1) : activeIndex + 1 }
               </span>
               <span className={css.total}>
-                { totalSlides }
+                { totalSlides - 1 }
               </span>
             </div>
           }

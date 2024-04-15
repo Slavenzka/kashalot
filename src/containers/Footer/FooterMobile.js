@@ -1,13 +1,10 @@
 import React from 'react'
 import classnames from 'classnames'
 import css from './FooterMobile.module.scss'
-import IconFacebook from 'assets/icons/IconFacebook'
-import IconVK from 'assets/icons/IconVK'
-import IconTwitter from 'assets/icons/IconTwitter'
-import IconInstagram from 'assets/icons/IconInstagram'
 import IconLogoCreator from 'assets/icons/IconLogoCreator'
-// import { YMInitializer } from 'react-yandex-metrika'
 import ContainerMobile from 'components/Grid/ContainerMobile'
+import IconTelegram from 'assets/icons/IconTelegram'
+import IconWhatsApp from 'assets/icons/IconWhatsApp'
 
 const FooterMobile = ({ className }) => {
   const footerData = {
@@ -87,20 +84,12 @@ const FooterMobile = ({ className }) => {
     ],
     social: [
       {
-        type: 'facebook',
-        url: '/'
+        type: 'telegram',
+        url: 'https://t.me/+79269652202'
       },
       {
-        type: 'vk',
-        url: '/'
-      },
-      {
-        type: 'twitter',
-        url: '/'
-      },
-      {
-        type: 'instagram',
-        url: '/'
+        type: 'whatsapp',
+        url: 'https://wa.me/+79269652202'
       },
     ],
     companyInfo: {
@@ -127,20 +116,14 @@ const FooterMobile = ({ className }) => {
         let icon
 
         switch (item.type) {
-          case 'facebook':
-            icon = <IconFacebook className={css.iconSocial} />
+          case 'telegram':
+            icon = <IconTelegram className={css.iconSocial} />
             break
-          case 'vk':
-            icon = <IconVK className={css.iconSocial} />
-            break
-          case 'twitter':
-            icon = <IconTwitter className={css.iconSocial} />
-            break
-          case 'instagram':
-            icon = <IconInstagram className={css.iconSocial} />
+          case 'whatsapp':
+            icon = <IconWhatsApp className={css.iconSocial} />
             break
           default:
-            return null
+            icon = null
         }
 
         return (

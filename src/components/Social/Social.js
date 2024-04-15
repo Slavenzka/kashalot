@@ -1,11 +1,9 @@
 import React, { memo, useMemo } from 'react'
 import css from './Social.module.scss'
-import IconFacebook from 'assets/icons/IconFacebook'
-import IconVK from 'assets/icons/IconVK'
-import IconTwitter from 'assets/icons/IconTwitter'
-import IconInstagram from 'assets/icons/IconInstagram'
 import classnames from 'classnames'
 import { dataSocial } from 'staticData/dataSocial'
+import IconTelegram from 'assets/icons/IconTelegram'
+import IconWhatsApp from 'assets/icons/IconWhatsApp'
 
 export const SocialVariants = {
   DEFAULT: `DEFAULT`,
@@ -20,14 +18,10 @@ function Social ({
   
   function getIcon (type) {
     switch (type) {
-      case 'facebook':
-        return <IconFacebook className={css.icon} />
-      case 'vk':
-        return <IconVK className={css.icon} />
-      case 'twitter':
-        return <IconTwitter className={css.icon} />
-      case 'instagram':
-        return <IconInstagram className={css.icon} />
+      case 'telegram':
+        return <IconTelegram className={css.icon} />
+      case 'whatsapp':
+        return <IconWhatsApp className={css.icon} />
       default:
         return null
     }

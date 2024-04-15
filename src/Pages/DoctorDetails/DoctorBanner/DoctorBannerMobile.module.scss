@@ -57,7 +57,8 @@
     margin: 0 auto;
     width: 25rem;
     height: 30rem;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center bottom;
     z-index: 1;
   }
 
@@ -163,7 +164,8 @@
   }
 
   .photo {
-    width: 32.2rem;
+    position: static;
+    width: 30rem;
     height: 35rem;
   }
 

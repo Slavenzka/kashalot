@@ -9,6 +9,7 @@ import Input from 'components/Input/Input'
 import Button from 'components/Button/Button'
 import { useDispatch } from 'react-redux'
 import { closeModal } from 'store/actions/ui'
+import { clearAllBodyScrollLocks } from 'body-scroll-lock'
 
 const ModalAppointment = ({
   isWithImage = false
@@ -25,18 +26,21 @@ const ModalAppointment = ({
       [`modal-appointment-phone`]: phone
     } = data
     
+    const formData = new FormData()
+    formData.append(`name`, name)
+    formData.append(`phone`, phone)
+    
     fetch(`/mail.php`, {
       method: `POST`,
-      body: JSON.stringify({
-        name,
-        phone
-      })
+      body: formData
     })
       .then(() => {
+        console.log(`TEST`)
         setFetching(false)
         dispatch(closeModal())
+        clearAllBodyScrollLocks()
       })
-  }, [dispatch])
+  }, [dispatch, clearAllBodyScrollLocks])
 
   return (
     <div className={classnames(css.wrapper, { [css.wrapperIllustrated]: isWithImage })}>
@@ -54,7 +58,7 @@ const ModalAppointment = ({
               <Input
                 name='modal-appointment-name'
                 placeholder='Имя*'
-                registration={register({ required: true, minLength: 3, pattern: /^[а-яА-Я]+$/ })}
+                registration={register({ required: true, minLength: 3, pattern: /^[а-яА-Яa-zA-Z ]+$/ })}
                 inputPalette='light'
               />
               {errors['modal-appointment-name'] &&
