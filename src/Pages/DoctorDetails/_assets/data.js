@@ -1,4 +1,6 @@
 import { doctorsData } from 'Pages/Doctors/_assets/data'
+import { getPracticeDuration } from 'utils'
+import { ALLAHVERDIEV_START, KARPUSHOV_START, KIREVICHEVA_START, PANOVA_START, SHTEINBERG_START } from 'utils/const'
 
 export const data = {
   0: {
@@ -152,7 +154,7 @@ export const data = {
       photo: 'doctors__photo--panova.png',
       name: 'Ксения Андреевна Панова',
       speciality: 'Cтоматолог-терапевт, стоматолог-ортопед',
-      experience: 'Ведет практику более 3 лет'
+      experience: `Ведет практику более ${getPracticeDuration(PANOVA_START)} лет`
     },
     content: [
       {
@@ -194,7 +196,7 @@ export const data = {
       photo: 'doctors__photo--karpushov.png',
       name: 'Игорь Владимирович Карпушов',
       speciality: 'Стоматолог-хирург, имплантолог',
-      experience: 'Ведет практику более 4 лет'
+      experience: `Ведет практику более ${getPracticeDuration(KARPUSHOV_START)} лет`
     },
     content: [
       {
@@ -235,7 +237,7 @@ export const data = {
       photo: 'doctors__photo--allahverdiev.png',
       name: 'Эльчин Хударович Аллахвердиев',
       speciality: 'Стоматолог-терапевт, стоматолог-ортопед',
-      experience: 'Ведет практику более 4 лет'
+      experience: `Ведет практику более ${getPracticeDuration(ALLAHVERDIEV_START)} лет`
     },
     content: [
       {
@@ -276,7 +278,7 @@ export const data = {
       photo: 'doctors__photo--kirevicheva.png',
       name: 'Дарья Олеговна Киревичева',
       speciality: 'Стоматолог-ортодонт',
-      experience: 'Ведет практику более 3 лет'
+      experience: `Ведет практику более ${KIREVICHEVA_START} лет`
     },
     content: [
       {
@@ -312,53 +314,12 @@ export const data = {
     ],
     advised: doctorsData.list.filter(({id}) => id !== 5)
   },
-  6: {
-    banner: {
-      photo: 'doctors__photo--andreychenko.png',
-      name: 'Ирина Владимировна Андрейченко',
-      speciality: 'Стоматолог-терапевт',
-      experience: 'Ведет практику более 20 лет'
-    },
-    content: [
-      {
-        type: 'about',
-        title: 'О себе',
-        data: {
-          quote: 'Выполняю полный комплекс терапевтических манипуляций: лечение кариеса, пульпита, периодонтита, а&nbsp;также эстетической реставрационной стоматологии: восстановление фронтальной группы зубов. Лечу пародонтит. Стремлюсь помочь своим пациентам обрести красивую улыбку и&nbsp;правильно за&nbsp;ней ухаживать.',
-        }
-      },
-      {
-        type: 'docs',
-        title: 'Обучение и сертификаты',
-        data: {
-          list: new Array(18).fill(``).map((_, index) => ({
-            image: `docs/andreychenko/${index + 1}.jpg`,
-            label: ''
-          }))
-        }
-      },
-      {
-        type: 'reviews',
-        title: 'Отзывы',
-        data: {
-          list: [
-            {
-              name: `Ольга, окт. 2023`,
-              text: 'Ирина Владимировна - наш семейный стоматолого уже много лет. Рекомендуем всем!',
-              specialist: 'Андрейченко Ирина Владимировна',
-            },
-          ]
-        }
-      }
-    ],
-    advised: doctorsData.list.filter(({id}) => id !== 6)
-  },
   7: {
     banner: {
       photo: 'doctors__photo--steinberg.png',
       name: 'Ривека Сергеевна Штейнберг',
       speciality: 'Стоматолог-терапевт',
-      experience: 'Ведет практику более полутора лет'
+      experience: `Ведет практику более ${getPracticeDuration(SHTEINBERG_START)} лет`
     },
     content: [
       {
@@ -372,7 +333,7 @@ export const data = {
         type: 'docs',
         title: 'Обучение и сертификаты',
         data: {
-          list: new Array(6).fill(``).map((_, index) => ({
+          list: new Array(3).fill(``).map((_, index) => ({
             image: `docs/steinberg/${index + 1}.jpg`,
             label: ''
           }))

@@ -1,4 +1,6 @@
 // converts an array into another array which elements are subarrays of length groupSize
+import { MAX_PRACTICE_PERIOD } from 'utils/const'
+
 export const createSubArrays = (array, groupSize) => {
   const copyArray = array.slice()
   const groupQty = Math.ceil(array.length / groupSize)
@@ -19,3 +21,9 @@ export const decodeHTMLCharacters = string => {
 }
 
 export const updateObject = (object, ...properties) => Object.assign({}, object, ...properties)
+
+export function getPracticeDuration (startYear) {
+  const currentYear = new Date().getFullYear()
+  
+  return Math.min(MAX_PRACTICE_PERIOD, currentYear - startYear)
+}
