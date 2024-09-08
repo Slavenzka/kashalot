@@ -11,9 +11,10 @@ if (filter_var($_POST['phone'])) {
     $body .= "От кого: ".$userName. "\r\n";
     $body .= "Контактный телефон: ".$userPhone. "\r\n";
 
-    $headers[] = 'From: kashalot.landing';
-    $headers[] = 'Reply-To: kashalot.landing';
+    $headers[] = 'From: kashalotclinic@yandex.ru';
+    $headers[] = 'Reply-To: kashalotclinic@yandex.ru';
 
     mail($to, $messageSubject, $body, implode("\r\n", $headers));
   }
 }
+?>

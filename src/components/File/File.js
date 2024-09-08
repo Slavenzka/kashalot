@@ -9,7 +9,13 @@ const File = ({
   size,
 }) => {
   return (
-    <a className={css.link} href={files('./' + file)}>
+    <a
+      className={css.link}
+      href={files('./' + file)}
+      download={`pricelist`}
+      rel="noopener norefferer"
+      target="_blank"
+    >
       <p className={css.name}>
         { label }
       </p>
