@@ -278,7 +278,7 @@ export const data = {
       photo: 'doctors__photo--kirevicheva.png',
       name: 'Дарья Олеговна Киревичева',
       speciality: 'Стоматолог-ортодонт',
-      experience: `Ведет практику более ${KIREVICHEVA_START} лет`
+      experience: `Ведет практику более ${getPracticeDuration(KIREVICHEVA_START)} лет`
     },
     content: [
       {
@@ -333,7 +333,7 @@ export const data = {
         type: 'docs',
         title: 'Обучение и сертификаты',
         data: {
-          list: new Array(3).fill(``).map((_, index) => ({
+          list: new Array(4).fill(``).map((_, index) => ({
             image: `docs/steinberg/${index + 1}.jpg`,
             label: ''
           }))
